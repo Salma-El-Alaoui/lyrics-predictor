@@ -22,7 +22,6 @@ def ngram_freq_cond(corpus, n):
 
 def generate_model(cfdist, context, num=15):
     seed = randint(0,9)
-
     n = len(context)
     for j in range(n):
             print(context[j], end = ' ')
