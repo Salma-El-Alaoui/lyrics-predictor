@@ -56,10 +56,10 @@ def generate_sentence(corpus, n , length = 15):
 #print("\n")
 #generate_sentence(blakePoems, 5)
 
-fdist =ngram_freq_dist(['I', 'can', 'do', 'it'],2 )
+fdist =ngram_freq_dist(['I', 'can', 'do', 'it', 'do'],2 )
 cfdist = ngram_freq_cond(['I', 'can', 'do', 'it'], 2)
-cpdist =  ConditionalProbDist(cfdist, MLEProbDist)
-print(cpdist.__getitem__(('I',)).prob('can'))
+#cpdist =  ConditionalProbDist(cfdist, MLEProbDist)
+#print(cpdist.__getitem__(('I',)).prob('can'))
 
 
 

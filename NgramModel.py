@@ -6,9 +6,25 @@ from nltk.probability import *
 import random
 from math import log
 
-class NgramModel:
+class NgramModel :
 
-    def __init__(self, n, trainingCorpus):
+    """
+        Creates an N-Gram language model.
+        :param estimator: distribution to smooth the probabilities derived from the training corpus
+        if no estimator is specified, the N-gram model uses the MLE estimator
+        possible estimators:
+         * MLEProbDist
+         * LaplaceProbDist : LaPlace smoothing. Optional parameter: number of bins
+         * LidstoneProbDist : Lidstone smoothing. Parameters: gamma, bins (optional)
+         *
+
+        :type:
+        : estimator_args: additional parameter for the chosen probability distribution (like the number of bins
+
+
+    """
+    def __init__(self, n, trainingCorpus, estimator, *estimator_args, **estimator_kwargs):
+
         self._n = n
         size = len(trainingCorpus)
         fdist = FreqDist(tuple(trainingCorpus[i:i+n]) for i in range(len(trainingCorpus)-1))
@@ -16,8 +32,14 @@ class NgramModel:
         cfdist = ConditionalFreqDist((tuple(trainingCorpus[i-(n-1):i]), trainingCorpus[i])
                 for i in range(n-1, size))
         self._cFdist = cfdist
-        cpdist =  ConditionalProbDist(cfdist, MLEProbDist)
+
+        if estimator is None :
+        #if no estimator is defined, the default is the MLE estimator
+            cpdist =  ConditionalProbDist(cfdist, MLEProbDist )
+        else :
+            cpdist = ConditionalProbDist(cfdist, estimator, *estimator_args, **estimator_kwargs)
         self._probDist = cpdist
+
 
     def prob(self, word, context):
         context = tuple(context)
@@ -85,9 +107,10 @@ class NgramModel:
 
 
 blakePoems = gutenberg.words('blake-poems.txt')
-lm = NgramModel(3,blakePoems)
-print(lm.prob('tell', ['I','can']))
+lm = NgramModel(3,blakePoems, LidstoneProbDist, 0.5, 1000)
+print(lm.prob('love', ['I','can']))
 print(lm.nextWord(['I','can']))
 print(lm.generateRandomContext())
 print(lm.generateRandomSentence())
+#est = lambda fdist, bins: LidstoneProbDist(fdist, 0.2)
 
