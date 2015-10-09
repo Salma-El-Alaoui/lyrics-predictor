@@ -75,7 +75,7 @@ def load_songlist(file):
 def getLyric(artist, song):
 
     # build the api call with template and variables. NOTE: Replace space " " with "+" for songs as it's the end of string and would lead otherwise to invalid API calls!!!
-    api_call = SEARCH_DIRECT % (artist, song.replace(" ", "+"))
+    api_call = SEARCH_DIRECT % (artist.replace(" ", "+"), song.replace(" ", "+"))
     print("Download: " + artist +" - " + song + " API-CALL: " + api_call)
     request = Request(api_call)
 
