@@ -14,7 +14,7 @@ for songname in lines:
 	request = Request(url)
 	response = urlopen(request)
 	text = response.read()
-	print text
+	print(text)
     file.write(text)
 	time.sleep(10)
 file.close
