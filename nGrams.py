@@ -1,17 +1,20 @@
 __author__ = 'qrr'
 
 import nltk
-from nltk.corpus import gutenberg
+from nltk.corpus import gutenberg, brown
 from nltk.probability import *
 import random
+from nltk import ngrams
+
 
 
 blakePoems = gutenberg.words('blake-poems.txt')
 
+
 def ngram_freq_dist(corpus, n):
     return nltk.FreqDist(tuple(corpus[i:i+n]) for i in range(len(corpus)-1))
 
-dist = ngram_freq_dist(blakePoems, 3)
+    dist = ngram_freq_dist(blakePoems, 3)
 
 def ngram_freq_cond(corpus, n):
         size = len(corpus)
@@ -45,13 +48,20 @@ def generate_sentence(corpus, n , length = 15):
         context = context[1:n-1]+(nextWord,)
 
 
-generate_sentence(blakePoems, 2)
-print("\n")
-generate_sentence(blakePoems, 3)
-print("\n")
-generate_sentence(blakePoems, 4)
-print("\n")
-generate_sentence(blakePoems, 5)
+#generate_sentence(blakePoems, 2)
+#print("\n")
+#generate_sentence(blakePoems, 3)
+#print("\n")
+#generate_sentence(blakePoems, 4)
+#print("\n")
+#generate_sentence(blakePoems, 5)
+
+fdist =ngram_freq_dist(['I', 'can', 'do', 'it'],2 )
+cfdist = ngram_freq_cond(['I', 'can', 'do', 'it'], 2)
+cpdist =  ConditionalProbDist(cfdist, MLEProbDist)
+print(cpdist.__getitem__(('I',)).prob('can'))
+
+
 
 
 
