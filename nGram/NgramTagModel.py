@@ -1,25 +1,31 @@
 __author__ = 'qrr'
 
+from pickle import load
+import random
+
 import nltk
 from nltk.corpus import gutenberg
-from nltk import NgramTagger
 from nltk.probability import *
-from pickle import load
+
+from nGram.nGramModel import NgramModel
+
 
 class NgramTagModel:
 
-    def __init__(self, n, trainingCorpus):
+    def __init__(self, nTag, nWord, trainingCorpus):
 
-        self._n = n
-
+        self._nTag = nTag
+        self._nWord = nWord
         #if change n, then the file name should be modified
-        input = open('t3b.pkl', 'rb')
+        input = open('../taggers/t3b.pkl', 'rb')
         tagger = load(input)
         self._tagger = tagger
+        print(tagger)
         input.close()
 
+        self._ngram = NgramModel(nWord, trainingCorpus)
         #tag our own training corpus using trained Ngram Tagger
-        taggedTrainingCorpus = tagger.tag(trainingCorpus)
+        taggedTrainingCorpus = self._tagger.tag(trainingCorpus)
 
         # find all tags, tagList (now replaced by self._cFdist)
         # tagList = []
@@ -68,9 +74,52 @@ class NgramTagModel:
                     maxValue = tmpValue
         return maxValue
 
+    def linearCombination(self, contextWords, contextTags):
+
+        contextWords = contextWords[len(contextWords) - (self._nWord-1) : len(contextWords)]
+        contextTags = contextTags[len(contextTags) - (self._nTag-1) : len(contextTags)]
+        alpha = 0.5
+        print("CONTEXT WORDS", contextWords)
+        print("CONTEXT TAGS", contextTags)
+        nextWords = self._ngram.wordsInContext(contextWords)
+        print("NEXT WORDS", nextWords)
+        maxValue = -1
+        maxWord = ""
+        for word in nextWords :
+            prob = alpha * self._ngram.prob(word, contextWords) + (1-alpha)* self.nextWordTag(word, contextTags)
+            if(prob > maxValue):
+                    maxValue = prob
+                    maxWord = word
+        return maxWord
+
+    def tagTestCorpus(self, testCorpus):
+        return self._tagger.tag(testCorpus)
+
+    def getRandomContext(self, testCorpus):
+        numWords = max(self._nWord, self._nTag)
+        size = len(testCorpus)
+        seed = random.randrange(0,size-numWords-1)
+        context = testCorpus[seed: seed+numWords-1]
+        return(context)
+
+    def nextWord(self, context):
+        size = len(context)
+        listWords = [context[i][0]for i in range(size)]
+        listTags = [context[i][1]for i in range(size)]
+        return self.linearCombination(listWords, listTags)
 
 blakePoems = gutenberg.words('blake-poems.txt')
-tm = NgramTagModel(3,blakePoems)
+
+size = int(len(blakePoems) * 0.8)
+train = blakePoems[:size]
+test = blakePoems[size:]
+
+tm = NgramTagModel(3,2,train)
+testTag = tm.tagTestCorpus(test)
+context = tm.getRandomContext(testTag)
+print("Context", context)
+print(tm.nextWord(context))
+
 # print (list(tm._probDistTag))
-print (tm.probCondMulti('bed', 'NN', ('IN','AT')))
-print (tm.nextWordTag('bed', ('IN','AT')))
+#print (tm.probCondMulti('bed', 'NN', ('IN','AT')))
+#print (tm.nextWordTag('bed', ('IN','AT')))

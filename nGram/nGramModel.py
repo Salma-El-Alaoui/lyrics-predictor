@@ -23,7 +23,7 @@ class NgramModel :
 
 
     """
-    def __init__(self, n, trainingCorpus, estimator, *estimator_args, **estimator_kwargs):
+    def __init__(self, n, trainingCorpus, estimator = MLEProbDist, *estimator_args, **estimator_kwargs):
 
         self._n = n
         size = len(trainingCorpus)
@@ -33,11 +33,7 @@ class NgramModel :
                 for i in range(n-1, size))
         self._cFdist = cfdist
 
-        if estimator is None :
-        #if no estimator is defined, the default is the MLE estimator
-            cpdist =  ConditionalProbDist(cfdist, MLEProbDist)
-        else :
-            cpdist = ConditionalProbDist(cfdist, estimator, *estimator_args, **estimator_kwargs)
+        cpdist = ConditionalProbDist(cfdist, estimator, *estimator_args, **estimator_kwargs)
         self._probDist = cpdist
 
 
@@ -52,6 +48,13 @@ class NgramModel :
         context = tuple(context)
         return self._probDist.__getitem__(context).max()
 
+    def wordsInContext(self, context):
+        context = tuple(context)
+        nextWords = []
+        for word in (self._probDist.__getitem__(context).samples()):
+            nextWords.append(word)
+        return nextWords
+
     def generateRandomContext(self):
         countStart = 0
         listContext = []
@@ -63,7 +66,7 @@ class NgramModel :
         context = listContext[seed]
         #remove the point
         context = context[1:self._n]
-        return list(context)
+        return [context[i] for i in range(len(context))]
 
     def generateRandomSentence(self, length = 15):
         sentence = self.generateRandomContext()
@@ -85,7 +88,6 @@ class NgramModel :
         :type context: list(str)
     """
     def logProb(self, word, context):
-
         if self.prob(word, context) is None :
             return 0
         else :
@@ -112,16 +114,18 @@ class NgramModel :
 
 
 
-blakePoems = gutenberg.words('blake-poems.txt')
-size = int(len(blakePoems) * 0.8)
-train = blakePoems[:size]
-test = blakePoems[size:]
+#blakePoems = gutenberg.words('blake-poems.txt')
+#size = int(len(blakePoems) * 0.8)
+#train = blakePoems[:size]
+#test = blakePoems[size:]
 
-lm = NgramModel( 3,train, LaplaceProbDist)
+#lm = NgramModel( 3,train)
+#lm.nextWord(['I', 'can'])
+#list = lm.wordsInContext(['I', 'can'])
 #lm.perplexity(test)
 #print(lm.prob('love', ['I','can']))
 #print(lm.nextWord(['I','can']))
-print(lm.generateRandomContext())
-print(lm.generateRandomSentence())
+#print(lm.generateRandomContext())
+#print(lm.generateRandomSentence())
 #est = lambda fdist, bins: LidstoneProbDist(fdist, 0.2)
 
