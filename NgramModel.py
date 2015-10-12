@@ -35,7 +35,7 @@ class NgramModel :
 
         if estimator is None :
         #if no estimator is defined, the default is the MLE estimator
-            cpdist =  ConditionalProbDist(cfdist, MLEProbDist )
+            cpdist =  ConditionalProbDist(cfdist, MLEProbDist)
         else :
             cpdist = ConditionalProbDist(cfdist, estimator, *estimator_args, **estimator_kwargs)
         self._probDist = cpdist
@@ -43,7 +43,10 @@ class NgramModel :
 
     def prob(self, word, context):
         context = tuple(context)
-        return self._probDist.__getitem__(context).prob(word)
+        if self._probDist.__getitem__(context) is None :
+            return 0
+        else :
+            return self._probDist.__getitem__(context).prob(word)
 
     def nextWord(self, context):
         context = tuple(context)
@@ -83,7 +86,10 @@ class NgramModel :
     """
     def logProb(self, word, context):
 
-        return log(self.prob(word, context), 2)
+        if self.prob(word, context) is None :
+            return 0
+        else :
+            return log(self.prob(word, context), 2)
 
 
     """
@@ -97,9 +103,9 @@ class NgramModel :
     def perplexity(self, corpus):
         e = 0.0
         for i in range(self._n - 1, len(corpus)):
-            context = tuple(corpus[i-(self.n-1):i])
+            context = tuple(corpus[i-(self._n-1):i])
             token = corpus[i]
-            e -= self.logprob(token, context)
+            e += self.logProb(token, context)
         return e / float(len(corpus))
 
 
@@ -107,9 +113,14 @@ class NgramModel :
 
 
 blakePoems = gutenberg.words('blake-poems.txt')
-lm = NgramModel(3,blakePoems, LidstoneProbDist, 0.5, 1000)
-print(lm.prob('love', ['I','can']))
-print(lm.nextWord(['I','can']))
+size = int(len(blakePoems) * 0.8)
+train = blakePoems[:size]
+test = blakePoems[size:]
+
+lm = NgramModel( 3,train, LaplaceProbDist)
+#lm.perplexity(test)
+#print(lm.prob('love', ['I','can']))
+#print(lm.nextWord(['I','can']))
 print(lm.generateRandomContext())
 print(lm.generateRandomSentence())
 #est = lambda fdist, bins: LidstoneProbDist(fdist, 0.2)
