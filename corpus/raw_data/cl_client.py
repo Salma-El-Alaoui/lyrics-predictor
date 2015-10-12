@@ -20,6 +20,8 @@ SONGLIST = "songlist.txt"
 # chart lyrics api really doesn't allow more frequent requests.... timeout in s
 API_TIMEOUT = 20
 
+# error list for song that could not get downloaded
+error_list = []
 
 # Chartlyrics HTTP API
 #
@@ -87,7 +89,9 @@ def getLyric(artist, song):
     # catch ERRORS, print them and return false
     except URLError as e:
         print("Error: ", e)
-        return False
+        error_list.append(artist + " - " + song)
+        print("Append song to error list. Continue...")
+        return True
     except socket.error as e:
         print("Error: ", e)
         return False
@@ -138,5 +142,8 @@ for artist in song_list:
             print("\nwait for %s seconds...\n" % (API_TIMEOUT))
             sleep(API_TIMEOUT)
 
+print("Songs that could not get downloaded")
+for error in error_list:
+    print(error)
 
-print(" Finished ")
+print("Finished :)")
