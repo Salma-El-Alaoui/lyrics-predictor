@@ -15,7 +15,7 @@ if not os.name == 'posix':
     OUTPUT_RAW_DIR = ".\\"
 
 # name of songlist file
-SONGLIST = "songlist.txt"
+SONGLIST = "songlist_pop.txt"
 
 # chart lyrics api really doesn't allow more frequent requests.... timeout in s
 API_TIMEOUT = 20
@@ -51,6 +51,11 @@ def load_songlist(file):
 
     for song in songlist:
 
+        song = song.replace("é","e")
+        song = song.replace("à", "a")
+        song = song.replace("á", "a")
+        song = song.replace("ñ","n")
+        song = song.replace("ý","y")
         # if there was a empty line in the file continue...
         if song is "\n":
             continue
@@ -93,8 +98,16 @@ def getLyric(artist, song):
         print("Append song to error list. Continue...")
         return True
     except socket.error as e:
-        print("Error: ", e)
-        return False
+        print(e)
+        error_list.append(artist + " - " + song)
+        print("Append song to error list. Continue...")
+        return True
+    except UnicodeEncodeError as e:
+        print(e)
+        error_list.append(artist + " - " + song)
+        print("Append song to error list. Continue...")
+        return True
+
 
     # In case of success, parse the response to XML
     lyric_xml_dom = parseString(response.read())
@@ -109,11 +122,17 @@ def getLyric(artist, song):
     ls =  lyric_xml_dom.getElementsByTagName("LyricSong")[0].firstChild.nodeValue
     ls = ls.replace(u'.','')
 
-    l = lyric_xml_dom.getElementsByTagName("Lyric")[0].firstChild.nodeValue
-    #print(type(l))
+    try:
+        l = lyric_xml_dom.getElementsByTagName("Lyric")[0].firstChild.nodeValue
+    except AttributeError as e:
+        print(e)
+        error_list.append(artist + " - " + song)
+        print("Append song to error list. Continue...")
+        return True
 
     # compose a new filename, open it, write lyric to it
     new_song_file = la+"_"+ls+".txt"
+    new_song_file = new_song_file.replace("/"," ")
     target = codecs.open(OUTPUT_RAW_DIR + new_song_file , 'w', encoding='utf-8')
     target.write(l)
     target.close()
@@ -143,7 +162,12 @@ for artist in song_list:
             sleep(API_TIMEOUT)
 
 print("Songs that could not get downloaded")
+error_file = codecs.open(OUTPUT_RAW_DIR + "error_file.txt" , 'w', encoding='utf-8')
+
 for error in error_list:
     print(error)
+    error_file.write(error + "\n")
+
+error_file.close()
 
 print("Finished :)")
