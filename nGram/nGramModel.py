@@ -24,40 +24,36 @@ class NgramModel :
 
         """
         def __init__(self, n, trainingCorpus, estimator = MLEProbDist, bins = False, backOff = False):
-
             self._backOff = backOff
             self._n = n
             size = len(trainingCorpus)
             fdist = FreqDist(tuple(trainingCorpus[i:i+n]) for i in range(len(trainingCorpus)))
-            self._fDist = fdist
             cfdist = ConditionalFreqDist((tuple(trainingCorpus[i-(n-1):i]), trainingCorpus[i])
                     for i in range(n-1, size))
+            self._fDist = fdist
             self._cFdist = cfdist
-            print(fdist.items())
             self._T = self._fDist.B()+1
             if (bins) :
-                print("I'm here")
                 cpdist = ConditionalProbDist(cfdist, estimator, self._T +1 )
             else :
                  cpdist = ConditionalProbDist(cfdist, estimator)
-            print(cpdist.__getitem__(('I', 'can')).samples())
-            print(cpdist.__getitem__(('I', 'can')).prob('tell'))
-            print(cpdist.__getitem__(('I', 'can')).prob('lie'))
-            print(cpdist.__getitem__(('I', 'can')).prob('trace'))
-
             self._probDist = cpdist
             #print(self._probDist.__getitem__(()).prob('she'))
-
+            test = self._cFdist.conditions()
             #back of n_gram models
             # if our model is not a unigram
             if (backOff):
                 if n != 1 :
                     self._alphas = dict()
-                    self._backOff = NgramModel(n-1, trainingCorpus, estimator, bins)
-                    for context in cfdist.conditions():
+                    print(self._cFdist.conditions())
+                    for context in test:
+                            print("context", context)
+                            print("next", context[1:])
                             backOff_context = context[1:]
                             backOff_total_pr = 0.0
                             total_observed_pr = 0.0
+
+                            self._backOff = NgramModel(n-1, trainingCorpus, estimator, bins, backOff)
                             #these are the words that could follow our context, ie
                             for word in self.wordsInContext(context):
                                 backOff_total_pr += self._backOff.prob(word, backOff_context)
@@ -71,9 +67,12 @@ class NgramModel :
 
         def prob(self, word, context=()):
             context = tuple(context)
-            if (self._probDist.__getitem__(context) is not None) | (self._backOff == False) | (self._n==1) :
+            print("I'm here" , context)
+            freq = self._fDist.__getitem__(context)
+            if (freq != 0) | (self._backOff == False) | (self._n==1) :
                 return self._probDist.__getitem__(context).prob(word)
             else:
+                print("hello", context[1:])
                 return self._alphas[context]*self._backOff.prob(word, context[1:])
 
         def nextWord(self, context=()):
@@ -152,10 +151,10 @@ blakePoems = gutenberg.words('blake-poems.txt')
 #train = blakePoems[:size]
 #test = blakePoems[size:]
 
-lm = NgramModel( 3 ,blakePoems,LaplaceProbDist, True, True)
+lm = NgramModel( 3 ,blakePoems,LaplaceProbDist, True, False)
 #lm = NgramModel( 3 ,blakePoems,WittenBellProbDist, True, True)
 #print(lm.nextWord('I'))
-print(lm.prob('crazy', ['I','wrong']))
+print(lm.prob('crazy', ['I','can']))
 #print(lm.wordsInContext())
 #list = lm.wordsInContext(['I', 'can'])
 #lm.perplexity(test)
