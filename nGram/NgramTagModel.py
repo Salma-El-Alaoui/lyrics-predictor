@@ -25,7 +25,8 @@ class NgramTagModel:
         print(tagger)
         input.close()
 
-        self._ngram = NgramModel(nWord, trainingCorpus)
+        # self._ngram = NgramModel(nWord, trainingCorpus,LaplaceProbDist, True, False)
+        self._ngram = NgramModel(nWord, trainingCorpus,WittenBellProbDist, True, False)
 
         #tag our own training corpus using trained Ngram Tagger
         taggedTrainingCorpus = self._tagger.tag(trainingCorpus)
@@ -116,17 +117,17 @@ class NgramTagModel:
         listTags = [context[i][1]for i in range(size)]
         return self.linearCombination(listWords, listTags)
 
-blakePoems = gutenberg.words('blake-poems.txt')
-
-size = int(len(blakePoems) * 0.8)
-train = blakePoems[:size]
-test = blakePoems[size:]
-
-tm = NgramTagModel(4,2,train)
-testTag = tm.tagTestCorpus(test)
-context = tm.getRandomContext(testTag)
-print("Context", context)
-print(tm.nextWord(context))
+# blakePoems = gutenberg.words('blake-poems.txt')
+#
+# size = int(len(blakePoems) * 0.8)
+# train = blakePoems[:size]
+# test = blakePoems[size:]
+#
+# tm = NgramTagModel(4,2,train)
+# testTag = tm.tagTestCorpus(test)
+# context = tm.getRandomContext(testTag)
+# print("Context", context)
+# print(tm.nextWord(context))
 
 # print (list(tm._probDistTag))
 #print (tm.probCondMulti('bed', 'NN', ('IN','AT')))
