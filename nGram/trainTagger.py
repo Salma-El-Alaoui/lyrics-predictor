@@ -20,17 +20,34 @@ t0 = nltk.DefaultTagger('NN')
 t1 = nltk.UnigramTagger(train_sents, backoff=t0)
 t2 = nltk.BigramTagger(train_sents, backoff=t1)
 t3 = nltk.TrigramTagger(train_sents, backoff=t2)
+t4 = nltk.NgramTagger(4, train_sents, backoff=t3)
 
 #train trigram tagger without backoff
-t3nb = nltk.TrigramTagger(train_sents)
+# t3nb = nltk.TrigramTagger(train_sents)
 
-#store trigram tagger with backoff
-output = open('t3b.pkl', 'wb')
-dump(t3, output, -1)
-output.close()
+#store gram tagger with backoff
+output0 = open('t0.pkl', 'wb')
+dump(t0, output0, -1)
+output0.close()
+
+output1 = open('t1.pkl', 'wb')
+dump(t1, output1, -1)
+output1.close()
+
+output2 = open('t2.pkl', 'wb')
+dump(t2, output2, -1)
+output2.close()
+
+output3 = open('t3.pkl', 'wb')
+dump(t3, output3, -1)
+output3.close()
+
+output4 = open('t4.pkl', 'wb')
+dump(t4, output4, -1)
+output4.close()
 
 #store trigram tagger without back off
-output2 = open('t3nb.pkl', 'wb')
-dump(t3nb, output2, -1)
-output2.close()
+# output2 = open('t3nb.pkl', 'wb')
+# dump(t3nb, output2, -1)
+# output2.close()
 

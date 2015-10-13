@@ -16,14 +16,17 @@ class NgramTagModel:
 
         self._nTag = nTag
         self._nWord = nWord
-        #if change n, then the file name should be modified
-        input = open('../taggers/t3b.pkl', 'rb')
+
+        # read in the trained n-gram tagger from file
+        filepath = '../taggers/t' + str(nTag) + '.pkl'
+        input = open(filepath, 'rb')
         tagger = load(input)
         self._tagger = tagger
         print(tagger)
         input.close()
 
         self._ngram = NgramModel(nWord, trainingCorpus)
+
         #tag our own training corpus using trained Ngram Tagger
         taggedTrainingCorpus = self._tagger.tag(trainingCorpus)
 
@@ -37,8 +40,13 @@ class NgramTagModel:
         size = len(taggedTrainingCorpus)
 
         #count conditional prob for tags, p(ti|ti-1,ti-2), only for Trigram now!!!
-        cfdistTag = ConditionalFreqDist(((x[1], y[1]), z[1])
-                                       for x, y, z in nltk.trigrams(taggedTrainingCorpus))
+        cfdistTag = ConditionalFreqDist((tuple(item[1] for item in taggedTrainingCorpus[i-(nTag-1):i]),
+                                         taggedTrainingCorpus[i][1])
+                                        for i in range(nTag-1, size))
+
+        # print (cfdistTag.items())
+        # cfdistTag = ConditionalFreqDist(((x[1], y[1]), z[1])
+        #                                for x, y, z in nltk.trigrams(taggedTrainingCorpus))
 
         # need to modify below code to fit into Ngram
         # cfdistTag = ConditionalFreqDist((tuple(taggedTrainingCorpus[i-(n-1):i][1]), taggedTrainingCorpus[i][1])
@@ -114,7 +122,7 @@ size = int(len(blakePoems) * 0.8)
 train = blakePoems[:size]
 test = blakePoems[size:]
 
-tm = NgramTagModel(3,2,train)
+tm = NgramTagModel(4,2,train)
 testTag = tm.tagTestCorpus(test)
 context = tm.getRandomContext(testTag)
 print("Context", context)
