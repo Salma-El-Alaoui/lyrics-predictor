@@ -6,9 +6,25 @@ from nltk.probability import *
 import random
 from math import log
 
-class NgramModel:
+class NgramModel :
 
-    def __init__(self, n, trainingCorpus):
+    """
+        Creates an N-Gram language model.
+        :param estimator: distribution to smooth the probabilities derived from the training corpus
+        if no estimator is specified, the N-gram model uses the MLE estimator
+        possible estimators:
+         * MLEProbDist
+         * LaplaceProbDist : LaPlace smoothing. Optional parameter: number of bins
+         * LidstoneProbDist : Lidstone smoothing. Parameters: gamma, bins (optional)
+         *
+
+        :type:
+        : estimator_args: additional parameter for the chosen probability distribution (like the number of bins
+
+
+    """
+    def __init__(self, n, trainingCorpus, estimator = MLEProbDist, *estimator_args, **estimator_kwargs):
+
         self._n = n
         size = len(trainingCorpus)
         fdist = FreqDist(tuple(trainingCorpus[i:i+n]) for i in range(len(trainingCorpus)-1))
@@ -16,16 +32,28 @@ class NgramModel:
         cfdist = ConditionalFreqDist((tuple(trainingCorpus[i-(n-1):i]), trainingCorpus[i])
                 for i in range(n-1, size))
         self._cFdist = cfdist
-        cpdist =  ConditionalProbDist(cfdist, MLEProbDist)
+
+        cpdist = ConditionalProbDist(cfdist, estimator, *estimator_args, **estimator_kwargs)
         self._probDist = cpdist
+
 
     def prob(self, word, context):
         context = tuple(context)
-        return self._probDist.__getitem__(context).prob(word)
+        if self._probDist.__getitem__(context) is None :
+            return 0
+        else :
+            return self._probDist.__getitem__(context).prob(word)
 
     def nextWord(self, context):
         context = tuple(context)
         return self._probDist.__getitem__(context).max()
+
+    def wordsInContext(self, context):
+        context = tuple(context)
+        nextWords = []
+        for word in (self._probDist.__getitem__(context).samples()):
+            nextWords.append(word)
+        return nextWords
 
     def generateRandomContext(self):
         countStart = 0
@@ -38,7 +66,7 @@ class NgramModel:
         context = listContext[seed]
         #remove the point
         context = context[1:self._n]
-        return list(context)
+        return [context[i] for i in range(len(context))]
 
     def generateRandomSentence(self, length = 15):
         sentence = self.generateRandomContext()
@@ -60,8 +88,10 @@ class NgramModel:
         :type context: list(str)
     """
     def logProb(self, word, context):
-
-        return log(self.prob(word, context), 2)
+        if self.prob(word, context) is None :
+            return 0
+        else :
+            return log(self.prob(word, context), 2)
 
 
     """
@@ -75,19 +105,27 @@ class NgramModel:
     def perplexity(self, corpus):
         e = 0.0
         for i in range(self._n - 1, len(corpus)):
-            context = tuple(corpus[i-(self.n-1):i])
+            context = tuple(corpus[i-(self._n-1):i])
             token = corpus[i]
-            e -= self.logprob(token, context)
+            e += self.logProb(token, context)
         return e / float(len(corpus))
 
 
 
 
 
-blakePoems = gutenberg.words('blake-poems.txt')
-lm = NgramModel(3,blakePoems)
-print(lm.prob('tell', ['I','can']))
-print(lm.nextWord(['I','can']))
-print(lm.generateRandomContext())
-print(lm.generateRandomSentence())
+#blakePoems = gutenberg.words('blake-poems.txt')
+#size = int(len(blakePoems) * 0.8)
+#train = blakePoems[:size]
+#test = blakePoems[size:]
+
+#lm = NgramModel( 3,train)
+#lm.nextWord(['I', 'can'])
+#list = lm.wordsInContext(['I', 'can'])
+#lm.perplexity(test)
+#print(lm.prob('love', ['I','can']))
+#print(lm.nextWord(['I','can']))
+#print(lm.generateRandomContext())
+#print(lm.generateRandomSentence())
+#est = lambda fdist, bins: LidstoneProbDist(fdist, 0.2)
 
