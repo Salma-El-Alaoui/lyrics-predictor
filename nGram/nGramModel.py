@@ -8,122 +8,157 @@ from math import log
 
 class NgramModel :
 
-    """
-        Creates an N-Gram language model.
-        :param estimator: distribution to smooth the probabilities derived from the training corpus
-        if no estimator is specified, the N-gram model uses the MLE estimator
-        possible estimators:
-         * MLEProbDist
-         * LaplaceProbDist : LaPlace smoothing. Optional parameter: number of bins
-         * LidstoneProbDist : Lidstone smoothing. Parameters: gamma, bins (optional)
-         *
+        """
+            Creates an N-Gram language model.
+            :param estimator: distribution to smooth the probabilities derived from the training corpus
+            if no estimator is specified, the N-gram model uses the MLE estimator
+            possible estimators:
+             * MLEProbDist
+             * LaplaceProbDist : LaPlace smoothing. Optional parameter: number of bins
+             * LidstoneProbDist : Lidstone smoothing. Parameters: gamma, bins (optional)
+             *
 
-        :type:
-        : estimator_args: additional parameter for the chosen probability distribution (like the number of bins
-
-
-    """
-    def __init__(self, n, trainingCorpus, estimator = MLEProbDist, *estimator_args, **estimator_kwargs):
-
-        self._n = n
-        size = len(trainingCorpus)
-        fdist = FreqDist(tuple(trainingCorpus[i:i+n]) for i in range(len(trainingCorpus)-1))
-        self._fDist = fdist
-        cfdist = ConditionalFreqDist((tuple(trainingCorpus[i-(n-1):i]), trainingCorpus[i])
-                for i in range(n-1, size))
-        self._cFdist = cfdist
-
-        cpdist = ConditionalProbDist(cfdist, estimator, *estimator_args, **estimator_kwargs)
-        self._probDist = cpdist
+            :type:
+            : estimator_args: additional parameter for the chosen probability distribution (like the number of bins
 
 
-    def prob(self, word, context):
-        context = tuple(context)
-        if self._probDist.__getitem__(context) is None :
-            return 0
-        else :
-            return self._probDist.__getitem__(context).prob(word)
+        """
+        def __init__(self, n, trainingCorpus, estimator = MLEProbDist, bins = False, backOff = False):
 
-    def nextWord(self, context):
-        context = tuple(context)
-        return self._probDist.__getitem__(context).max()
+            self._backOff = backOff
+            self._n = n
+            size = len(trainingCorpus)
+            fdist = FreqDist(tuple(trainingCorpus[i:i+n]) for i in range(len(trainingCorpus)))
+            self._fDist = fdist
+            cfdist = ConditionalFreqDist((tuple(trainingCorpus[i-(n-1):i]), trainingCorpus[i])
+                    for i in range(n-1, size))
+            self._cFdist = cfdist
+            print(fdist.items())
+            self._T = self._fDist.B()+1
+            if (bins) :
+                print("I'm here")
+                cpdist = ConditionalProbDist(cfdist, estimator, self._T +1 )
+            else :
+                 cpdist = ConditionalProbDist(cfdist, estimator)
+            print(cpdist.__getitem__(('I', 'can')).samples())
+            print(cpdist.__getitem__(('I', 'can')).prob('tell'))
+            print(cpdist.__getitem__(('I', 'can')).prob('lie'))
+            print(cpdist.__getitem__(('I', 'can')).prob('trace'))
 
-    def wordsInContext(self, context):
-        context = tuple(context)
-        nextWords = []
-        for word in (self._probDist.__getitem__(context).samples()):
-            nextWords.append(word)
-        return nextWords
+            self._probDist = cpdist
+            #print(self._probDist.__getitem__(()).prob('she'))
 
-    def generateRandomContext(self):
-        countStart = 0
-        listContext = []
-        for ngram in self._fDist :
-            if ngram[0] == '.' :
-                countStart += 1
-                listContext.append(ngram)
-        seed = random.randrange(0,countStart)
-        context = listContext[seed]
-        #remove the point
-        context = context[1:self._n]
-        return [context[i] for i in range(len(context))]
-
-    def generateRandomSentence(self, length = 15):
-        sentence = self.generateRandomContext()
-        context = tuple(sentence)
-        for i in range(length):
-            nextWord = self.nextWord(context)
-            sentence.append(nextWord)
-            if (nextWord == '.')|(nextWord == '!')|(nextWord == '?')| (((nextWord == ';')|(nextWord == ',')) & (i > length - 3)):
-                break
-            context = context[1:self._n-1]+(nextWord,)
-        return sentence
-
-    """
-        log probability of this word in this context.
-
-        :param word: the word to get the probability of
-        :type word: str
-        :param context: the context the word is in
-        :type context: list(str)
-    """
-    def logProb(self, word, context):
-        if self.prob(word, context) is None :
-            return 0
-        else :
-            return log(self.prob(word, context), 2)
-
-
-    """
-    Calculates the perplexity of the n-gram model for a
-    given evaluation text.
-    This is the average log probability of each word in the text.
-
-    :param corpus: test corpus
-    :type text: list(str)
-    """
-    def perplexity(self, corpus):
-        e = 0.0
-        for i in range(self._n - 1, len(corpus)):
-            context = tuple(corpus[i-(self._n-1):i])
-            token = corpus[i]
-            e += self.logProb(token, context)
-        return e / float(len(corpus))
+            #back of n_gram models
+            # if our model is not a unigram
+            if (backOff):
+                if n != 1 :
+                    self._alphas = dict()
+                    self._backOff = NgramModel(n-1, trainingCorpus, estimator, bins)
+                    for context in cfdist.conditions():
+                            backOff_context = context[1:]
+                            backOff_total_pr = 0.0
+                            total_observed_pr = 0.0
+                            #these are the words that could follow our context, ie
+                            for word in self.wordsInContext(context):
+                                backOff_total_pr += self._backOff.prob(word, backOff_context)
+                                total_observed_pr += self.prob(word, context)
+                            # beta is the left over probability computed by subtracting from 1 the total probability of observed words
+                            beta = 1.0 - total_observed_pr
+                            alpha = beta / (1.0-backOff_total_pr)
+                            self._alphas[context] = alpha
 
 
 
+        def prob(self, word, context=()):
+            context = tuple(context)
+            if (self._probDist.__getitem__(context) is not None) | (self._backOff == False) | (self._n==1) :
+                return self._probDist.__getitem__(context).prob(word)
+            else:
+                return self._alphas[context]*self._backOff.prob(word, context[1:])
+
+        def nextWord(self, context=()):
+            context = tuple(context)
+            return self._probDist.__getitem__(context).max()
+
+        def wordsInContext(self, context=()):
+            context = tuple(context)
+            nextWords = []
+            for word in (self._probDist.__getitem__(context).samples()):
+                nextWords.append(word)
+            return nextWords
+
+        def generateRandomContext(self):
+            countStart = 0
+            listContext = []
+            for ngram in self._fDist :
+                if ngram[0] == '.' :
+                    countStart += 1
+                    listContext.append(ngram)
+            seed = random.randrange(0,countStart)
+            context = listContext[seed]
+            #remove the point
+            context = context[1:self._n]
+            return [context[i] for i in range(len(context))]
+
+        def generateRandomSentence(self, length = 15):
+            sentence = self.generateRandomContext()
+            context = tuple(sentence)
+            for i in range(length):
+                nextWord = self.nextWord(context)
+                sentence.append(nextWord)
+                if (nextWord == '.')|(nextWord == '!')|(nextWord == '?')| (((nextWord == ';')|(nextWord == ',')) & (i > length - 3)):
+                    break
+                context = context[1:self._n-1]+(nextWord,)
+            return sentence
+
+        """
+            log probability of this word in this context.
+
+            :param word: the word to get the probability of
+            :type word: str
+            :param context: the context the word is in
+            :type context: list(str)
+        """
+        def logProb(self, word, context):
+            if self.prob(word, context) is None :
+                return 0
+            else :
+                return log(self.prob(word, context), 2)
 
 
-#blakePoems = gutenberg.words('blake-poems.txt')
+        """
+        Calculates the perplexity of the n-gram model for a
+        given evaluation text.
+        This is the average log probability of each word in the text.
+
+        :param corpus: test corpus
+        :type text: list(str)
+        """
+        def perplexity(self, corpus):
+            e = 0.0
+            for i in range(self._n - 1, len(corpus)):
+                context = tuple(corpus[i-(self._n-1):i])
+                token = corpus[i]
+                e += self.logProb(token, context)
+            return e / float(len(corpus))
+
+
+
+
+
+blakePoems = gutenberg.words('blake-poems.txt')
+
 #size = int(len(blakePoems) * 0.8)
 #train = blakePoems[:size]
 #test = blakePoems[size:]
 
-#lm = NgramModel( 3,train)
-#lm.nextWord(['I', 'can'])
+lm = NgramModel( 3 ,blakePoems,LaplaceProbDist, True, True)
+#lm = NgramModel( 3 ,blakePoems,WittenBellProbDist, True, True)
+#print(lm.nextWord('I'))
+print(lm.prob('crazy', ['I','wrong']))
+#print(lm.wordsInContext())
 #list = lm.wordsInContext(['I', 'can'])
 #lm.perplexity(test)
-#print(lm.prob('love', ['I','can']))
 #print(lm.nextWord(['I','can']))
 #print(lm.generateRandomContext())
 #print(lm.generateRandomSentence())
