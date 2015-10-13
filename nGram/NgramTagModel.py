@@ -18,7 +18,7 @@ class NgramTagModel:
         self._nWord = nWord
 
         # read in the trained n-gram tagger from file
-        filepath = '../taggers/t' + str(nTag) + 'b.pkl'
+        filepath = '../taggers/t' + str(nTag) + '.pkl'
         input = open(filepath, 'rb')
         tagger = load(input)
         self._tagger = tagger
@@ -122,7 +122,7 @@ size = int(len(blakePoems) * 0.8)
 train = blakePoems[:size]
 test = blakePoems[size:]
 
-tm = NgramTagModel(3,2,train)
+tm = NgramTagModel(4,2,train)
 testTag = tm.tagTestCorpus(test)
 context = tm.getRandomContext(testTag)
 print("Context", context)
