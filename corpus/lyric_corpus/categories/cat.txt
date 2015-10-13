@@ -1,0 +1,1708 @@
+30 Seconds to Mars_1.txt+ROCK+30SecondstoMars
+30 Seconds to Mars_10.txt+ROCK+30SecondstoMars
+30 Seconds to Mars_11.txt+ROCK+30SecondstoMars
+30 Seconds to Mars_12.txt+ROCK+30SecondstoMars
+30 Seconds to Mars_13.txt+ROCK+30SecondstoMars
+30 Seconds to Mars_14.txt+ROCK+30SecondstoMars
+30 Seconds to Mars_15.txt+ROCK+30SecondstoMars
+30 Seconds to Mars_16.txt+ROCK+30SecondstoMars
+30 Seconds to Mars_17.txt+ROCK+30SecondstoMars
+30 Seconds to Mars_18.txt+ROCK+30SecondstoMars
+30 Seconds to Mars_19.txt+ROCK+30SecondstoMars
+30 Seconds to Mars_2.txt+ROCK+30SecondstoMars
+30 Seconds to Mars_20.txt+ROCK+30SecondstoMars
+30 Seconds to Mars_21.txt+ROCK+30SecondstoMars
+30 Seconds to Mars_22.txt+ROCK+30SecondstoMars
+30 Seconds to Mars_23.txt+ROCK+30SecondstoMars
+30 Seconds to Mars_24.txt+ROCK+30SecondstoMars
+30 Seconds to Mars_25.txt+ROCK+30SecondstoMars
+30 Seconds to Mars_3.txt+ROCK+30SecondstoMars
+30 Seconds to Mars_4.txt+ROCK+30SecondstoMars
+30 Seconds to Mars_5.txt+ROCK+30SecondstoMars
+30 Seconds to Mars_6.txt+ROCK+30SecondstoMars
+30 Seconds to Mars_7.txt+ROCK+30SecondstoMars
+30 Seconds to Mars_8.txt+ROCK+30SecondstoMars
+30 Seconds to Mars_9.txt+ROCK+30SecondstoMars
+ABBA_1.txt+POP+ABBA
+ABBA_10.txt+POP+ABBA
+ABBA_11.txt+POP+ABBA
+ABBA_12.txt+POP+ABBA
+ABBA_13.txt+POP+ABBA
+ABBA_14.txt+POP+ABBA
+ABBA_15.txt+POP+ABBA
+ABBA_16.txt+POP+ABBA
+ABBA_17.txt+POP+ABBA
+ABBA_18.txt+POP+ABBA
+ABBA_19.txt+POP+ABBA
+ABBA_2.txt+POP+ABBA
+ABBA_20.txt+POP+ABBA
+ABBA_21.txt+POP+ABBA
+ABBA_22.txt+POP+ABBA
+ABBA_23.txt+POP+ABBA
+ABBA_24.txt+POP+ABBA
+ABBA_25.txt+POP+ABBA
+ABBA_26.txt+POP+ABBA
+ABBA_27.txt+POP+ABBA
+ABBA_28.txt+POP+ABBA
+ABBA_29.txt+POP+ABBA
+ABBA_3.txt+POP+ABBA
+ABBA_30.txt+POP+ABBA
+ABBA_31.txt+POP+ABBA
+ABBA_32.txt+POP+ABBA
+ABBA_33.txt+POP+ABBA
+ABBA_34.txt+POP+ABBA
+ABBA_35.txt+POP+ABBA
+ABBA_36.txt+POP+ABBA
+ABBA_37.txt+POP+ABBA
+ABBA_38.txt+POP+ABBA
+ABBA_39.txt+POP+ABBA
+ABBA_4.txt+POP+ABBA
+ABBA_40.txt+POP+ABBA
+ABBA_41.txt+POP+ABBA
+ABBA_5.txt+POP+ABBA
+ABBA_6.txt+POP+ABBA
+ABBA_7.txt+POP+ABBA
+ABBA_8.txt+POP+ABBA
+ABBA_9.txt+POP+ABBA
+ACDC_1.txt+ROCK+ACDC
+ACDC_10.txt+ROCK+ACDC
+ACDC_11.txt+ROCK+ACDC
+ACDC_12.txt+ROCK+ACDC
+ACDC_13.txt+ROCK+ACDC
+ACDC_14.txt+ROCK+ACDC
+ACDC_15.txt+ROCK+ACDC
+ACDC_16.txt+ROCK+ACDC
+ACDC_17.txt+ROCK+ACDC
+ACDC_18.txt+ROCK+ACDC
+ACDC_19.txt+ROCK+ACDC
+ACDC_2.txt+ROCK+ACDC
+ACDC_20.txt+ROCK+ACDC
+ACDC_21.txt+ROCK+ACDC
+ACDC_22.txt+ROCK+ACDC
+ACDC_23.txt+ROCK+ACDC
+ACDC_24.txt+ROCK+ACDC
+ACDC_25.txt+ROCK+ACDC
+ACDC_26.txt+ROCK+ACDC
+ACDC_27.txt+ROCK+ACDC
+ACDC_28.txt+ROCK+ACDC
+ACDC_29.txt+ROCK+ACDC
+ACDC_3.txt+ROCK+ACDC
+ACDC_30.txt+ROCK+ACDC
+ACDC_31.txt+ROCK+ACDC
+ACDC_32.txt+ROCK+ACDC
+ACDC_33.txt+ROCK+ACDC
+ACDC_34.txt+ROCK+ACDC
+ACDC_35.txt+ROCK+ACDC
+ACDC_36.txt+ROCK+ACDC
+ACDC_37.txt+ROCK+ACDC
+ACDC_4.txt+ROCK+ACDC
+ACDC_5.txt+ROCK+ACDC
+ACDC_6.txt+ROCK+ACDC
+ACDC_7.txt+ROCK+ACDC
+ACDC_8.txt+ROCK+ACDC
+ACDC_9.txt+ROCK+ACDC
+Adele_1.txt+POP+Adele
+Adele_2.txt+POP+Adele
+Adele_3.txt+POP+Adele
+Adele_4.txt+POP+Adele
+Adele_5.txt+POP+Adele
+Adele_6.txt+POP+Adele
+Adele_7.txt+POP+Adele
+Adele_8.txt+POP+Adele
+Aerosmith_1.txt+ROCK+Aerosmith
+Aerosmith_10.txt+ROCK+Aerosmith
+Aerosmith_11.txt+ROCK+Aerosmith
+Aerosmith_12.txt+ROCK+Aerosmith
+Aerosmith_13.txt+ROCK+Aerosmith
+Aerosmith_14.txt+ROCK+Aerosmith
+Aerosmith_15.txt+ROCK+Aerosmith
+Aerosmith_16.txt+ROCK+Aerosmith
+Aerosmith_17.txt+ROCK+Aerosmith
+Aerosmith_18.txt+ROCK+Aerosmith
+Aerosmith_19.txt+ROCK+Aerosmith
+Aerosmith_2.txt+ROCK+Aerosmith
+Aerosmith_20.txt+ROCK+Aerosmith
+Aerosmith_21.txt+ROCK+Aerosmith
+Aerosmith_22.txt+ROCK+Aerosmith
+Aerosmith_23.txt+ROCK+Aerosmith
+Aerosmith_24.txt+ROCK+Aerosmith
+Aerosmith_25.txt+ROCK+Aerosmith
+Aerosmith_26.txt+ROCK+Aerosmith
+Aerosmith_27.txt+ROCK+Aerosmith
+Aerosmith_28.txt+ROCK+Aerosmith
+Aerosmith_29.txt+ROCK+Aerosmith
+Aerosmith_3.txt+ROCK+Aerosmith
+Aerosmith_30.txt+ROCK+Aerosmith
+Aerosmith_31.txt+ROCK+Aerosmith
+Aerosmith_32.txt+ROCK+Aerosmith
+Aerosmith_33.txt+ROCK+Aerosmith
+Aerosmith_34.txt+ROCK+Aerosmith
+Aerosmith_35.txt+ROCK+Aerosmith
+Aerosmith_36.txt+ROCK+Aerosmith
+Aerosmith_37.txt+ROCK+Aerosmith
+Aerosmith_38.txt+ROCK+Aerosmith
+Aerosmith_39.txt+ROCK+Aerosmith
+Aerosmith_4.txt+ROCK+Aerosmith
+Aerosmith_40.txt+ROCK+Aerosmith
+Aerosmith_41.txt+ROCK+Aerosmith
+Aerosmith_42.txt+ROCK+Aerosmith
+Aerosmith_43.txt+ROCK+Aerosmith
+Aerosmith_44.txt+ROCK+Aerosmith
+Aerosmith_5.txt+ROCK+Aerosmith
+Aerosmith_6.txt+ROCK+Aerosmith
+Aerosmith_7.txt+ROCK+Aerosmith
+Aerosmith_8.txt+ROCK+Aerosmith
+Aerosmith_9.txt+ROCK+Aerosmith
+Al Green_1.txt+POP+AlGreen
+Al Green_2.txt+POP+AlGreen
+Alan Jackson_1.txt+POP+AlanJackson
+Andy Williams_1.txt+POP+AndyWilliams
+Backstreet Boys_1.txt+POP+BackstreetBoys
+Backstreet Boys_2.txt+POP+BackstreetBoys
+Barbra Streisand_1.txt+POP+BarbraStreisand
+Barbra Streisand_10.txt+POP+BarbraStreisand
+Barbra Streisand_11.txt+POP+BarbraStreisand
+Barbra Streisand_12.txt+POP+BarbraStreisand
+Barbra Streisand_13.txt+POP+BarbraStreisand
+Barbra Streisand_14.txt+POP+BarbraStreisand
+Barbra Streisand_15.txt+POP+BarbraStreisand
+Barbra Streisand_16.txt+POP+BarbraStreisand
+Barbra Streisand_17.txt+POP+BarbraStreisand
+Barbra Streisand_18.txt+POP+BarbraStreisand
+Barbra Streisand_19.txt+POP+BarbraStreisand
+Barbra Streisand_2.txt+POP+BarbraStreisand
+Barbra Streisand_20.txt+POP+BarbraStreisand
+Barbra Streisand_21.txt+POP+BarbraStreisand
+Barbra Streisand_22.txt+POP+BarbraStreisand
+Barbra Streisand_23.txt+POP+BarbraStreisand
+Barbra Streisand_24.txt+POP+BarbraStreisand
+Barbra Streisand_25.txt+POP+BarbraStreisand
+Barbra Streisand_26.txt+POP+BarbraStreisand
+Barbra Streisand_27.txt+POP+BarbraStreisand
+Barbra Streisand_28.txt+POP+BarbraStreisand
+Barbra Streisand_29.txt+POP+BarbraStreisand
+Barbra Streisand_3.txt+POP+BarbraStreisand
+Barbra Streisand_30.txt+POP+BarbraStreisand
+Barbra Streisand_31.txt+POP+BarbraStreisand
+Barbra Streisand_32.txt+POP+BarbraStreisand
+Barbra Streisand_33.txt+POP+BarbraStreisand
+Barbra Streisand_34.txt+POP+BarbraStreisand
+Barbra Streisand_35.txt+POP+BarbraStreisand
+Barbra Streisand_36.txt+POP+BarbraStreisand
+Barbra Streisand_37.txt+POP+BarbraStreisand
+Barbra Streisand_38.txt+POP+BarbraStreisand
+Barbra Streisand_4.txt+POP+BarbraStreisand
+Barbra Streisand_5.txt+POP+BarbraStreisand
+Barbra Streisand_6.txt+POP+BarbraStreisand
+Barbra Streisand_7.txt+POP+BarbraStreisand
+Barbra Streisand_8.txt+POP+BarbraStreisand
+Barbra Streisand_9.txt+POP+BarbraStreisand
+Bee Gees_1.txt+POP+BeeGees
+Bee Gees_10.txt+POP+BeeGees
+Bee Gees_11.txt+POP+BeeGees
+Bee Gees_12.txt+POP+BeeGees
+Bee Gees_13.txt+POP+BeeGees
+Bee Gees_14.txt+POP+BeeGees
+Bee Gees_15.txt+POP+BeeGees
+Bee Gees_16.txt+POP+BeeGees
+Bee Gees_17.txt+POP+BeeGees
+Bee Gees_18.txt+POP+BeeGees
+Bee Gees_19.txt+POP+BeeGees
+Bee Gees_2.txt+POP+BeeGees
+Bee Gees_20.txt+POP+BeeGees
+Bee Gees_21.txt+POP+BeeGees
+Bee Gees_22.txt+POP+BeeGees
+Bee Gees_23.txt+POP+BeeGees
+Bee Gees_24.txt+POP+BeeGees
+Bee Gees_25.txt+POP+BeeGees
+Bee Gees_26.txt+POP+BeeGees
+Bee Gees_27.txt+POP+BeeGees
+Bee Gees_28.txt+POP+BeeGees
+Bee Gees_29.txt+POP+BeeGees
+Bee Gees_3.txt+POP+BeeGees
+Bee Gees_30.txt+POP+BeeGees
+Bee Gees_31.txt+POP+BeeGees
+Bee Gees_32.txt+POP+BeeGees
+Bee Gees_33.txt+POP+BeeGees
+Bee Gees_34.txt+POP+BeeGees
+Bee Gees_35.txt+POP+BeeGees
+Bee Gees_36.txt+POP+BeeGees
+Bee Gees_4.txt+POP+BeeGees
+Bee Gees_5.txt+POP+BeeGees
+Bee Gees_6.txt+POP+BeeGees
+Bee Gees_7.txt+POP+BeeGees
+Bee Gees_8.txt+POP+BeeGees
+Bee Gees_9.txt+POP+BeeGees
+Beyonce_1.txt+POP+Beyonce
+Beyonce_10.txt+POP+Beyonce
+Beyonce_11.txt+POP+Beyonce
+Beyonce_12.txt+POP+Beyonce
+Beyonce_13.txt+POP+Beyonce
+Beyonce_14.txt+POP+Beyonce
+Beyonce_15.txt+POP+Beyonce
+Beyonce_16.txt+POP+Beyonce
+Beyonce_17.txt+POP+Beyonce
+Beyonce_18.txt+POP+Beyonce
+Beyonce_19.txt+POP+Beyonce
+Beyonce_2.txt+POP+Beyonce
+Beyonce_20.txt+POP+Beyonce
+Beyonce_21.txt+POP+Beyonce
+Beyonce_22.txt+POP+Beyonce
+Beyonce_23.txt+POP+Beyonce
+Beyonce_24.txt+POP+Beyonce
+Beyonce_25.txt+POP+Beyonce
+Beyonce_3.txt+POP+Beyonce
+Beyonce_4.txt+POP+Beyonce
+Beyonce_5.txt+POP+Beyonce
+Beyonce_6.txt+POP+Beyonce
+Beyonce_7.txt+POP+Beyonce
+Beyonce_8.txt+POP+Beyonce
+Beyonce_9.txt+POP+Beyonce
+blink-182_1.txt+ROCK+blink-182
+blink-182_10.txt+ROCK+blink-182
+blink-182_11.txt+ROCK+blink-182
+blink-182_12.txt+ROCK+blink-182
+blink-182_13.txt+ROCK+blink-182
+blink-182_14.txt+ROCK+blink-182
+blink-182_15.txt+ROCK+blink-182
+blink-182_16.txt+ROCK+blink-182
+blink-182_17.txt+ROCK+blink-182
+blink-182_18.txt+ROCK+blink-182
+blink-182_19.txt+ROCK+blink-182
+blink-182_2.txt+ROCK+blink-182
+blink-182_20.txt+ROCK+blink-182
+blink-182_21.txt+ROCK+blink-182
+blink-182_22.txt+ROCK+blink-182
+blink-182_23.txt+ROCK+blink-182
+blink-182_24.txt+ROCK+blink-182
+blink-182_25.txt+ROCK+blink-182
+blink-182_26.txt+ROCK+blink-182
+blink-182_27.txt+ROCK+blink-182
+blink-182_28.txt+ROCK+blink-182
+blink-182_29.txt+ROCK+blink-182
+blink-182_3.txt+ROCK+blink-182
+blink-182_30.txt+ROCK+blink-182
+blink-182_31.txt+ROCK+blink-182
+blink-182_32.txt+ROCK+blink-182
+blink-182_33.txt+ROCK+blink-182
+blink-182_34.txt+ROCK+blink-182
+blink-182_35.txt+ROCK+blink-182
+blink-182_36.txt+ROCK+blink-182
+blink-182_37.txt+ROCK+blink-182
+blink-182_38.txt+ROCK+blink-182
+blink-182_39.txt+ROCK+blink-182
+blink-182_4.txt+ROCK+blink-182
+blink-182_40.txt+ROCK+blink-182
+blink-182_41.txt+ROCK+blink-182
+blink-182_42.txt+ROCK+blink-182
+blink-182_43.txt+ROCK+blink-182
+blink-182_44.txt+ROCK+blink-182
+blink-182_45.txt+ROCK+blink-182
+blink-182_46.txt+ROCK+blink-182
+blink-182_5.txt+ROCK+blink-182
+blink-182_6.txt+ROCK+blink-182
+blink-182_7.txt+ROCK+blink-182
+blink-182_8.txt+ROCK+blink-182
+blink-182_9.txt+ROCK+blink-182
+Britney Spears_1.txt+POP+BritneySpears
+Britney Spears_10.txt+POP+BritneySpears
+Britney Spears_11.txt+POP+BritneySpears
+Britney Spears_12.txt+POP+BritneySpears
+Britney Spears_13.txt+POP+BritneySpears
+Britney Spears_14.txt+POP+BritneySpears
+Britney Spears_15.txt+POP+BritneySpears
+Britney Spears_16.txt+POP+BritneySpears
+Britney Spears_17.txt+POP+BritneySpears
+Britney Spears_18.txt+POP+BritneySpears
+Britney Spears_19.txt+POP+BritneySpears
+Britney Spears_2.txt+POP+BritneySpears
+Britney Spears_20.txt+POP+BritneySpears
+Britney Spears_21.txt+POP+BritneySpears
+Britney Spears_22.txt+POP+BritneySpears
+Britney Spears_23.txt+POP+BritneySpears
+Britney Spears_24.txt+POP+BritneySpears
+Britney Spears_25.txt+POP+BritneySpears
+Britney Spears_26.txt+POP+BritneySpears
+Britney Spears_27.txt+POP+BritneySpears
+Britney Spears_28.txt+POP+BritneySpears
+Britney Spears_29.txt+POP+BritneySpears
+Britney Spears_3.txt+POP+BritneySpears
+Britney Spears_30.txt+POP+BritneySpears
+Britney Spears_31.txt+POP+BritneySpears
+Britney Spears_32.txt+POP+BritneySpears
+Britney Spears_33.txt+POP+BritneySpears
+Britney Spears_34.txt+POP+BritneySpears
+Britney Spears_35.txt+POP+BritneySpears
+Britney Spears_36.txt+POP+BritneySpears
+Britney Spears_37.txt+POP+BritneySpears
+Britney Spears_38.txt+POP+BritneySpears
+Britney Spears_39.txt+POP+BritneySpears
+Britney Spears_4.txt+POP+BritneySpears
+Britney Spears_40.txt+POP+BritneySpears
+Britney Spears_41.txt+POP+BritneySpears
+Britney Spears_42.txt+POP+BritneySpears
+Britney Spears_43.txt+POP+BritneySpears
+Britney Spears_5.txt+POP+BritneySpears
+Britney Spears_6.txt+POP+BritneySpears
+Britney Spears_7.txt+POP+BritneySpears
+Britney Spears_8.txt+POP+BritneySpears
+Britney Spears_9.txt+POP+BritneySpears
+Celine Dion_1.txt+POP+CelineDion
+Celine Dion_10.txt+POP+CelineDion
+Celine Dion_11.txt+POP+CelineDion
+Celine Dion_12.txt+POP+CelineDion
+Celine Dion_13.txt+POP+CelineDion
+Celine Dion_14.txt+POP+CelineDion
+Celine Dion_15.txt+POP+CelineDion
+Celine Dion_16.txt+POP+CelineDion
+Celine Dion_17.txt+POP+CelineDion
+Celine Dion_18.txt+POP+CelineDion
+Celine Dion_19.txt+POP+CelineDion
+Celine Dion_2.txt+POP+CelineDion
+Celine Dion_20.txt+POP+CelineDion
+Celine Dion_21.txt+POP+CelineDion
+Celine Dion_22.txt+POP+CelineDion
+Celine Dion_23.txt+POP+CelineDion
+Celine Dion_24.txt+POP+CelineDion
+Celine Dion_25.txt+POP+CelineDion
+Celine Dion_26.txt+POP+CelineDion
+Celine Dion_27.txt+POP+CelineDion
+Celine Dion_28.txt+POP+CelineDion
+Celine Dion_29.txt+POP+CelineDion
+Celine Dion_3.txt+POP+CelineDion
+Celine Dion_30.txt+POP+CelineDion
+Celine Dion_4.txt+POP+CelineDion
+Celine Dion_5.txt+POP+CelineDion
+Celine Dion_6.txt+POP+CelineDion
+Celine Dion_7.txt+POP+CelineDion
+Celine Dion_8.txt+POP+CelineDion
+Celine Dion_9.txt+POP+CelineDion
+Christina Aguilera_1.txt+POP+ChristinaAguilera
+Christina Aguilera_10.txt+POP+ChristinaAguilera
+Christina Aguilera_11.txt+POP+ChristinaAguilera
+Christina Aguilera_12.txt+POP+ChristinaAguilera
+Christina Aguilera_13.txt+POP+ChristinaAguilera
+Christina Aguilera_14.txt+POP+ChristinaAguilera
+Christina Aguilera_15.txt+POP+ChristinaAguilera
+Christina Aguilera_16.txt+POP+ChristinaAguilera
+Christina Aguilera_17.txt+POP+ChristinaAguilera
+Christina Aguilera_18.txt+POP+ChristinaAguilera
+Christina Aguilera_19.txt+POP+ChristinaAguilera
+Christina Aguilera_2.txt+POP+ChristinaAguilera
+Christina Aguilera_20.txt+POP+ChristinaAguilera
+Christina Aguilera_21.txt+POP+ChristinaAguilera
+Christina Aguilera_22.txt+POP+ChristinaAguilera
+Christina Aguilera_23.txt+POP+ChristinaAguilera
+Christina Aguilera_24.txt+POP+ChristinaAguilera
+Christina Aguilera_25.txt+POP+ChristinaAguilera
+Christina Aguilera_26.txt+POP+ChristinaAguilera
+Christina Aguilera_27.txt+POP+ChristinaAguilera
+Christina Aguilera_28.txt+POP+ChristinaAguilera
+Christina Aguilera_29.txt+POP+ChristinaAguilera
+Christina Aguilera_3.txt+POP+ChristinaAguilera
+Christina Aguilera_30.txt+POP+ChristinaAguilera
+Christina Aguilera_31.txt+POP+ChristinaAguilera
+Christina Aguilera_32.txt+POP+ChristinaAguilera
+Christina Aguilera_33.txt+POP+ChristinaAguilera
+Christina Aguilera_34.txt+POP+ChristinaAguilera
+Christina Aguilera_4.txt+POP+ChristinaAguilera
+Christina Aguilera_5.txt+POP+ChristinaAguilera
+Christina Aguilera_6.txt+POP+ChristinaAguilera
+Christina Aguilera_7.txt+POP+ChristinaAguilera
+Christina Aguilera_8.txt+POP+ChristinaAguilera
+Christina Aguilera_9.txt+POP+ChristinaAguilera
+Elton John_1.txt+POP+EltonJohn
+Elton John_10.txt+POP+EltonJohn
+Elton John_11.txt+POP+EltonJohn
+Elton John_12.txt+POP+EltonJohn
+Elton John_13.txt+POP+EltonJohn
+Elton John_14.txt+POP+EltonJohn
+Elton John_15.txt+POP+EltonJohn
+Elton John_16.txt+POP+EltonJohn
+Elton John_17.txt+POP+EltonJohn
+Elton John_18.txt+POP+EltonJohn
+Elton John_19.txt+POP+EltonJohn
+Elton John_2.txt+POP+EltonJohn
+Elton John_20.txt+POP+EltonJohn
+Elton John_21.txt+POP+EltonJohn
+Elton John_22.txt+POP+EltonJohn
+Elton John_23.txt+POP+EltonJohn
+Elton John_24.txt+POP+EltonJohn
+Elton John_25.txt+POP+EltonJohn
+Elton John_26.txt+POP+EltonJohn
+Elton John_27.txt+POP+EltonJohn
+Elton John_28.txt+POP+EltonJohn
+Elton John_29.txt+POP+EltonJohn
+Elton John_3.txt+POP+EltonJohn
+Elton John_30.txt+POP+EltonJohn
+Elton John_31.txt+POP+EltonJohn
+Elton John_32.txt+POP+EltonJohn
+Elton John_33.txt+POP+EltonJohn
+Elton John_4.txt+POP+EltonJohn
+Elton John_5.txt+POP+EltonJohn
+Elton John_6.txt+POP+EltonJohn
+Elton John_7.txt+POP+EltonJohn
+Elton John_8.txt+POP+EltonJohn
+Elton John_9.txt+POP+EltonJohn
+Foo Fighters_1.txt+ROCK+FooFighters
+Foo Fighters_10.txt+ROCK+FooFighters
+Foo Fighters_11.txt+ROCK+FooFighters
+Foo Fighters_12.txt+ROCK+FooFighters
+Foo Fighters_13.txt+ROCK+FooFighters
+Foo Fighters_14.txt+ROCK+FooFighters
+Foo Fighters_15.txt+ROCK+FooFighters
+Foo Fighters_16.txt+ROCK+FooFighters
+Foo Fighters_17.txt+ROCK+FooFighters
+Foo Fighters_18.txt+ROCK+FooFighters
+Foo Fighters_19.txt+ROCK+FooFighters
+Foo Fighters_2.txt+ROCK+FooFighters
+Foo Fighters_20.txt+ROCK+FooFighters
+Foo Fighters_21.txt+ROCK+FooFighters
+Foo Fighters_22.txt+ROCK+FooFighters
+Foo Fighters_23.txt+ROCK+FooFighters
+Foo Fighters_24.txt+ROCK+FooFighters
+Foo Fighters_25.txt+ROCK+FooFighters
+Foo Fighters_26.txt+ROCK+FooFighters
+Foo Fighters_27.txt+ROCK+FooFighters
+Foo Fighters_28.txt+ROCK+FooFighters
+Foo Fighters_29.txt+ROCK+FooFighters
+Foo Fighters_3.txt+ROCK+FooFighters
+Foo Fighters_30.txt+ROCK+FooFighters
+Foo Fighters_31.txt+ROCK+FooFighters
+Foo Fighters_32.txt+ROCK+FooFighters
+Foo Fighters_33.txt+ROCK+FooFighters
+Foo Fighters_34.txt+ROCK+FooFighters
+Foo Fighters_35.txt+ROCK+FooFighters
+Foo Fighters_36.txt+ROCK+FooFighters
+Foo Fighters_37.txt+ROCK+FooFighters
+Foo Fighters_38.txt+ROCK+FooFighters
+Foo Fighters_39.txt+ROCK+FooFighters
+Foo Fighters_4.txt+ROCK+FooFighters
+Foo Fighters_40.txt+ROCK+FooFighters
+Foo Fighters_41.txt+ROCK+FooFighters
+Foo Fighters_42.txt+ROCK+FooFighters
+Foo Fighters_43.txt+ROCK+FooFighters
+Foo Fighters_44.txt+ROCK+FooFighters
+Foo Fighters_5.txt+ROCK+FooFighters
+Foo Fighters_6.txt+ROCK+FooFighters
+Foo Fighters_7.txt+ROCK+FooFighters
+Foo Fighters_8.txt+ROCK+FooFighters
+Foo Fighters_9.txt+ROCK+FooFighters
+George Michael_1.txt+POP+GeorgeMichael
+George Michael_10.txt+POP+GeorgeMichael
+George Michael_11.txt+POP+GeorgeMichael
+George Michael_12.txt+POP+GeorgeMichael
+George Michael_13.txt+POP+GeorgeMichael
+George Michael_14.txt+POP+GeorgeMichael
+George Michael_15.txt+POP+GeorgeMichael
+George Michael_16.txt+POP+GeorgeMichael
+George Michael_17.txt+POP+GeorgeMichael
+George Michael_18.txt+POP+GeorgeMichael
+George Michael_19.txt+POP+GeorgeMichael
+George Michael_2.txt+POP+GeorgeMichael
+George Michael_20.txt+POP+GeorgeMichael
+George Michael_21.txt+POP+GeorgeMichael
+George Michael_22.txt+POP+GeorgeMichael
+George Michael_23.txt+POP+GeorgeMichael
+George Michael_24.txt+POP+GeorgeMichael
+George Michael_3.txt+POP+GeorgeMichael
+George Michael_4.txt+POP+GeorgeMichael
+George Michael_5.txt+POP+GeorgeMichael
+George Michael_6.txt+POP+GeorgeMichael
+George Michael_7.txt+POP+GeorgeMichael
+George Michael_8.txt+POP+GeorgeMichael
+George Michael_9.txt+POP+GeorgeMichael
+Green Day_1.txt+ROCK+GreenDay
+Green Day_10.txt+ROCK+GreenDay
+Green Day_11.txt+ROCK+GreenDay
+Green Day_12.txt+ROCK+GreenDay
+Green Day_13.txt+ROCK+GreenDay
+Green Day_14.txt+ROCK+GreenDay
+Green Day_15.txt+ROCK+GreenDay
+Green Day_16.txt+ROCK+GreenDay
+Green Day_17.txt+ROCK+GreenDay
+Green Day_18.txt+ROCK+GreenDay
+Green Day_19.txt+ROCK+GreenDay
+Green Day_2.txt+ROCK+GreenDay
+Green Day_20.txt+ROCK+GreenDay
+Green Day_21.txt+ROCK+GreenDay
+Green Day_22.txt+ROCK+GreenDay
+Green Day_23.txt+ROCK+GreenDay
+Green Day_24.txt+ROCK+GreenDay
+Green Day_25.txt+ROCK+GreenDay
+Green Day_26.txt+ROCK+GreenDay
+Green Day_27.txt+ROCK+GreenDay
+Green Day_28.txt+ROCK+GreenDay
+Green Day_29.txt+ROCK+GreenDay
+Green Day_3.txt+ROCK+GreenDay
+Green Day_30.txt+ROCK+GreenDay
+Green Day_31.txt+ROCK+GreenDay
+Green Day_32.txt+ROCK+GreenDay
+Green Day_33.txt+ROCK+GreenDay
+Green Day_34.txt+ROCK+GreenDay
+Green Day_35.txt+ROCK+GreenDay
+Green Day_36.txt+ROCK+GreenDay
+Green Day_37.txt+ROCK+GreenDay
+Green Day_38.txt+ROCK+GreenDay
+Green Day_39.txt+ROCK+GreenDay
+Green Day_4.txt+ROCK+GreenDay
+Green Day_40.txt+ROCK+GreenDay
+Green Day_5.txt+ROCK+GreenDay
+Green Day_6.txt+ROCK+GreenDay
+Green Day_7.txt+ROCK+GreenDay
+Green Day_8.txt+ROCK+GreenDay
+Green Day_9.txt+ROCK+GreenDay
+Guns N' Roses_1.txt+ROCK+GunsN'Roses
+Guns N' Roses_10.txt+ROCK+GunsN'Roses
+Guns N' Roses_11.txt+ROCK+GunsN'Roses
+Guns N' Roses_12.txt+ROCK+GunsN'Roses
+Guns N' Roses_13.txt+ROCK+GunsN'Roses
+Guns N' Roses_14.txt+ROCK+GunsN'Roses
+Guns N' Roses_15.txt+ROCK+GunsN'Roses
+Guns N' Roses_16.txt+ROCK+GunsN'Roses
+Guns N' Roses_17.txt+ROCK+GunsN'Roses
+Guns N' Roses_18.txt+ROCK+GunsN'Roses
+Guns N' Roses_19.txt+ROCK+GunsN'Roses
+Guns N' Roses_2.txt+ROCK+GunsN'Roses
+Guns N' Roses_20.txt+ROCK+GunsN'Roses
+Guns N' Roses_21.txt+ROCK+GunsN'Roses
+Guns N' Roses_22.txt+ROCK+GunsN'Roses
+Guns N' Roses_23.txt+ROCK+GunsN'Roses
+Guns N' Roses_24.txt+ROCK+GunsN'Roses
+Guns N' Roses_25.txt+ROCK+GunsN'Roses
+Guns N' Roses_26.txt+ROCK+GunsN'Roses
+Guns N' Roses_27.txt+ROCK+GunsN'Roses
+Guns N' Roses_28.txt+ROCK+GunsN'Roses
+Guns N' Roses_29.txt+ROCK+GunsN'Roses
+Guns N' Roses_3.txt+ROCK+GunsN'Roses
+Guns N' Roses_30.txt+ROCK+GunsN'Roses
+Guns N' Roses_31.txt+ROCK+GunsN'Roses
+Guns N' Roses_32.txt+ROCK+GunsN'Roses
+Guns N' Roses_33.txt+ROCK+GunsN'Roses
+Guns N' Roses_34.txt+ROCK+GunsN'Roses
+Guns N' Roses_35.txt+ROCK+GunsN'Roses
+Guns N' Roses_36.txt+ROCK+GunsN'Roses
+Guns N' Roses_37.txt+ROCK+GunsN'Roses
+Guns N' Roses_38.txt+ROCK+GunsN'Roses
+Guns N' Roses_39.txt+ROCK+GunsN'Roses
+Guns N' Roses_4.txt+ROCK+GunsN'Roses
+Guns N' Roses_40.txt+ROCK+GunsN'Roses
+Guns N' Roses_41.txt+ROCK+GunsN'Roses
+Guns N' Roses_42.txt+ROCK+GunsN'Roses
+Guns N' Roses_5.txt+ROCK+GunsN'Roses
+Guns N' Roses_6.txt+ROCK+GunsN'Roses
+Guns N' Roses_7.txt+ROCK+GunsN'Roses
+Guns N' Roses_8.txt+ROCK+GunsN'Roses
+Guns N' Roses_9.txt+ROCK+GunsN'Roses
+Gwen Stefani_1.txt+POP+GwenStefani
+Gwen Stefani_10.txt+POP+GwenStefani
+Gwen Stefani_11.txt+POP+GwenStefani
+Gwen Stefani_12.txt+POP+GwenStefani
+Gwen Stefani_13.txt+POP+GwenStefani
+Gwen Stefani_14.txt+POP+GwenStefani
+Gwen Stefani_15.txt+POP+GwenStefani
+Gwen Stefani_16.txt+POP+GwenStefani
+Gwen Stefani_17.txt+POP+GwenStefani
+Gwen Stefani_2.txt+POP+GwenStefani
+Gwen Stefani_3.txt+POP+GwenStefani
+Gwen Stefani_4.txt+POP+GwenStefani
+Gwen Stefani_5.txt+POP+GwenStefani
+Gwen Stefani_6.txt+POP+GwenStefani
+Gwen Stefani_7.txt+POP+GwenStefani
+Gwen Stefani_8.txt+POP+GwenStefani
+Gwen Stefani_9.txt+POP+GwenStefani
+Iron Maiden_1.txt+ROCK+IronMaiden
+Iron Maiden_10.txt+ROCK+IronMaiden
+Iron Maiden_11.txt+ROCK+IronMaiden
+Iron Maiden_12.txt+ROCK+IronMaiden
+Iron Maiden_13.txt+ROCK+IronMaiden
+Iron Maiden_14.txt+ROCK+IronMaiden
+Iron Maiden_15.txt+ROCK+IronMaiden
+Iron Maiden_16.txt+ROCK+IronMaiden
+Iron Maiden_17.txt+ROCK+IronMaiden
+Iron Maiden_18.txt+ROCK+IronMaiden
+Iron Maiden_19.txt+ROCK+IronMaiden
+Iron Maiden_2.txt+ROCK+IronMaiden
+Iron Maiden_20.txt+ROCK+IronMaiden
+Iron Maiden_21.txt+ROCK+IronMaiden
+Iron Maiden_22.txt+ROCK+IronMaiden
+Iron Maiden_23.txt+ROCK+IronMaiden
+Iron Maiden_24.txt+ROCK+IronMaiden
+Iron Maiden_25.txt+ROCK+IronMaiden
+Iron Maiden_26.txt+ROCK+IronMaiden
+Iron Maiden_27.txt+ROCK+IronMaiden
+Iron Maiden_28.txt+ROCK+IronMaiden
+Iron Maiden_29.txt+ROCK+IronMaiden
+Iron Maiden_3.txt+ROCK+IronMaiden
+Iron Maiden_30.txt+ROCK+IronMaiden
+Iron Maiden_31.txt+ROCK+IronMaiden
+Iron Maiden_32.txt+ROCK+IronMaiden
+Iron Maiden_33.txt+ROCK+IronMaiden
+Iron Maiden_34.txt+ROCK+IronMaiden
+Iron Maiden_35.txt+ROCK+IronMaiden
+Iron Maiden_36.txt+ROCK+IronMaiden
+Iron Maiden_37.txt+ROCK+IronMaiden
+Iron Maiden_38.txt+ROCK+IronMaiden
+Iron Maiden_39.txt+ROCK+IronMaiden
+Iron Maiden_4.txt+ROCK+IronMaiden
+Iron Maiden_40.txt+ROCK+IronMaiden
+Iron Maiden_41.txt+ROCK+IronMaiden
+Iron Maiden_42.txt+ROCK+IronMaiden
+Iron Maiden_43.txt+ROCK+IronMaiden
+Iron Maiden_44.txt+ROCK+IronMaiden
+Iron Maiden_45.txt+ROCK+IronMaiden
+Iron Maiden_46.txt+ROCK+IronMaiden
+Iron Maiden_5.txt+ROCK+IronMaiden
+Iron Maiden_6.txt+ROCK+IronMaiden
+Iron Maiden_7.txt+ROCK+IronMaiden
+Iron Maiden_8.txt+ROCK+IronMaiden
+Iron Maiden_9.txt+ROCK+IronMaiden
+Janet Jackson_1.txt+POP+JanetJackson
+Janet Jackson_10.txt+POP+JanetJackson
+Janet Jackson_11.txt+POP+JanetJackson
+Janet Jackson_12.txt+POP+JanetJackson
+Janet Jackson_13.txt+POP+JanetJackson
+Janet Jackson_14.txt+POP+JanetJackson
+Janet Jackson_15.txt+POP+JanetJackson
+Janet Jackson_16.txt+POP+JanetJackson
+Janet Jackson_17.txt+POP+JanetJackson
+Janet Jackson_18.txt+POP+JanetJackson
+Janet Jackson_2.txt+POP+JanetJackson
+Janet Jackson_3.txt+POP+JanetJackson
+Janet Jackson_4.txt+POP+JanetJackson
+Janet Jackson_5.txt+POP+JanetJackson
+Janet Jackson_6.txt+POP+JanetJackson
+Janet Jackson_7.txt+POP+JanetJackson
+Janet Jackson_8.txt+POP+JanetJackson
+Janet Jackson_9.txt+POP+JanetJackson
+Justin Timberlake_1.txt+POP+JustinTimberlake
+Justin Timberlake_10.txt+POP+JustinTimberlake
+Justin Timberlake_11.txt+POP+JustinTimberlake
+Justin Timberlake_12.txt+POP+JustinTimberlake
+Justin Timberlake_13.txt+POP+JustinTimberlake
+Justin Timberlake_14.txt+POP+JustinTimberlake
+Justin Timberlake_15.txt+POP+JustinTimberlake
+Justin Timberlake_16.txt+POP+JustinTimberlake
+Justin Timberlake_17.txt+POP+JustinTimberlake
+Justin Timberlake_18.txt+POP+JustinTimberlake
+Justin Timberlake_2.txt+POP+JustinTimberlake
+Justin Timberlake_3.txt+POP+JustinTimberlake
+Justin Timberlake_4.txt+POP+JustinTimberlake
+Justin Timberlake_5.txt+POP+JustinTimberlake
+Justin Timberlake_6.txt+POP+JustinTimberlake
+Justin Timberlake_7.txt+POP+JustinTimberlake
+Justin Timberlake_8.txt+POP+JustinTimberlake
+Justin Timberlake_9.txt+POP+JustinTimberlake
+Katy Perry_1.txt+POP+KatyPerry
+Katy Perry_10.txt+POP+KatyPerry
+Katy Perry_11.txt+POP+KatyPerry
+Katy Perry_12.txt+POP+KatyPerry
+Katy Perry_13.txt+POP+KatyPerry
+Katy Perry_2.txt+POP+KatyPerry
+Katy Perry_3.txt+POP+KatyPerry
+Katy Perry_4.txt+POP+KatyPerry
+Katy Perry_5.txt+POP+KatyPerry
+Katy Perry_6.txt+POP+KatyPerry
+Katy Perry_7.txt+POP+KatyPerry
+Katy Perry_8.txt+POP+KatyPerry
+Katy Perry_9.txt+POP+KatyPerry
+Kylie Minogue_1.txt+POP+KylieMinogue
+Kylie Minogue_10.txt+POP+KylieMinogue
+Kylie Minogue_11.txt+POP+KylieMinogue
+Kylie Minogue_12.txt+POP+KylieMinogue
+Kylie Minogue_13.txt+POP+KylieMinogue
+Kylie Minogue_14.txt+POP+KylieMinogue
+Kylie Minogue_15.txt+POP+KylieMinogue
+Kylie Minogue_16.txt+POP+KylieMinogue
+Kylie Minogue_17.txt+POP+KylieMinogue
+Kylie Minogue_18.txt+POP+KylieMinogue
+Kylie Minogue_19.txt+POP+KylieMinogue
+Kylie Minogue_2.txt+POP+KylieMinogue
+Kylie Minogue_20.txt+POP+KylieMinogue
+Kylie Minogue_21.txt+POP+KylieMinogue
+Kylie Minogue_22.txt+POP+KylieMinogue
+Kylie Minogue_23.txt+POP+KylieMinogue
+Kylie Minogue_24.txt+POP+KylieMinogue
+Kylie Minogue_25.txt+POP+KylieMinogue
+Kylie Minogue_26.txt+POP+KylieMinogue
+Kylie Minogue_27.txt+POP+KylieMinogue
+Kylie Minogue_28.txt+POP+KylieMinogue
+Kylie Minogue_29.txt+POP+KylieMinogue
+Kylie Minogue_3.txt+POP+KylieMinogue
+Kylie Minogue_30.txt+POP+KylieMinogue
+Kylie Minogue_31.txt+POP+KylieMinogue
+Kylie Minogue_32.txt+POP+KylieMinogue
+Kylie Minogue_33.txt+POP+KylieMinogue
+Kylie Minogue_34.txt+POP+KylieMinogue
+Kylie Minogue_35.txt+POP+KylieMinogue
+Kylie Minogue_36.txt+POP+KylieMinogue
+Kylie Minogue_37.txt+POP+KylieMinogue
+Kylie Minogue_38.txt+POP+KylieMinogue
+Kylie Minogue_39.txt+POP+KylieMinogue
+Kylie Minogue_4.txt+POP+KylieMinogue
+Kylie Minogue_5.txt+POP+KylieMinogue
+Kylie Minogue_6.txt+POP+KylieMinogue
+Kylie Minogue_7.txt+POP+KylieMinogue
+Kylie Minogue_8.txt+POP+KylieMinogue
+Kylie Minogue_9.txt+POP+KylieMinogue
+Lady Gaga_1.txt+POP+LadyGaga
+Lady Gaga_10.txt+POP+LadyGaga
+Lady Gaga_11.txt+POP+LadyGaga
+Lady Gaga_12.txt+POP+LadyGaga
+Lady Gaga_13.txt+POP+LadyGaga
+Lady Gaga_14.txt+POP+LadyGaga
+Lady Gaga_2.txt+POP+LadyGaga
+Lady Gaga_3.txt+POP+LadyGaga
+Lady Gaga_4.txt+POP+LadyGaga
+Lady Gaga_5.txt+POP+LadyGaga
+Lady Gaga_6.txt+POP+LadyGaga
+Lady Gaga_7.txt+POP+LadyGaga
+Lady Gaga_8.txt+POP+LadyGaga
+Lady Gaga_9.txt+POP+LadyGaga
+Led Zeppelin_1.txt+ROCK+LedZeppelin
+Led Zeppelin_10.txt+ROCK+LedZeppelin
+Led Zeppelin_11.txt+ROCK+LedZeppelin
+Led Zeppelin_12.txt+ROCK+LedZeppelin
+Led Zeppelin_13.txt+ROCK+LedZeppelin
+Led Zeppelin_14.txt+ROCK+LedZeppelin
+Led Zeppelin_15.txt+ROCK+LedZeppelin
+Led Zeppelin_16.txt+ROCK+LedZeppelin
+Led Zeppelin_17.txt+ROCK+LedZeppelin
+Led Zeppelin_18.txt+ROCK+LedZeppelin
+Led Zeppelin_19.txt+ROCK+LedZeppelin
+Led Zeppelin_2.txt+ROCK+LedZeppelin
+Led Zeppelin_20.txt+ROCK+LedZeppelin
+Led Zeppelin_21.txt+ROCK+LedZeppelin
+Led Zeppelin_22.txt+ROCK+LedZeppelin
+Led Zeppelin_23.txt+ROCK+LedZeppelin
+Led Zeppelin_24.txt+ROCK+LedZeppelin
+Led Zeppelin_25.txt+ROCK+LedZeppelin
+Led Zeppelin_26.txt+ROCK+LedZeppelin
+Led Zeppelin_27.txt+ROCK+LedZeppelin
+Led Zeppelin_28.txt+ROCK+LedZeppelin
+Led Zeppelin_29.txt+ROCK+LedZeppelin
+Led Zeppelin_3.txt+ROCK+LedZeppelin
+Led Zeppelin_30.txt+ROCK+LedZeppelin
+Led Zeppelin_31.txt+ROCK+LedZeppelin
+Led Zeppelin_32.txt+ROCK+LedZeppelin
+Led Zeppelin_33.txt+ROCK+LedZeppelin
+Led Zeppelin_34.txt+ROCK+LedZeppelin
+Led Zeppelin_35.txt+ROCK+LedZeppelin
+Led Zeppelin_4.txt+ROCK+LedZeppelin
+Led Zeppelin_5.txt+ROCK+LedZeppelin
+Led Zeppelin_6.txt+ROCK+LedZeppelin
+Led Zeppelin_7.txt+ROCK+LedZeppelin
+Led Zeppelin_8.txt+ROCK+LedZeppelin
+Led Zeppelin_9.txt+ROCK+LedZeppelin
+Linkin Park_1.txt+ROCK+LinkinPark
+Linkin Park_10.txt+ROCK+LinkinPark
+Linkin Park_11.txt+ROCK+LinkinPark
+Linkin Park_12.txt+ROCK+LinkinPark
+Linkin Park_13.txt+ROCK+LinkinPark
+Linkin Park_14.txt+ROCK+LinkinPark
+Linkin Park_15.txt+ROCK+LinkinPark
+Linkin Park_16.txt+ROCK+LinkinPark
+Linkin Park_17.txt+ROCK+LinkinPark
+Linkin Park_18.txt+ROCK+LinkinPark
+Linkin Park_19.txt+ROCK+LinkinPark
+Linkin Park_2.txt+ROCK+LinkinPark
+Linkin Park_20.txt+ROCK+LinkinPark
+Linkin Park_21.txt+ROCK+LinkinPark
+Linkin Park_22.txt+ROCK+LinkinPark
+Linkin Park_23.txt+ROCK+LinkinPark
+Linkin Park_24.txt+ROCK+LinkinPark
+Linkin Park_25.txt+ROCK+LinkinPark
+Linkin Park_26.txt+ROCK+LinkinPark
+Linkin Park_27.txt+ROCK+LinkinPark
+Linkin Park_28.txt+ROCK+LinkinPark
+Linkin Park_29.txt+ROCK+LinkinPark
+Linkin Park_3.txt+ROCK+LinkinPark
+Linkin Park_30.txt+ROCK+LinkinPark
+Linkin Park_31.txt+ROCK+LinkinPark
+Linkin Park_32.txt+ROCK+LinkinPark
+Linkin Park_33.txt+ROCK+LinkinPark
+Linkin Park_34.txt+ROCK+LinkinPark
+Linkin Park_35.txt+ROCK+LinkinPark
+Linkin Park_36.txt+ROCK+LinkinPark
+Linkin Park_37.txt+ROCK+LinkinPark
+Linkin Park_38.txt+ROCK+LinkinPark
+Linkin Park_39.txt+ROCK+LinkinPark
+Linkin Park_4.txt+ROCK+LinkinPark
+Linkin Park_5.txt+ROCK+LinkinPark
+Linkin Park_6.txt+ROCK+LinkinPark
+Linkin Park_7.txt+ROCK+LinkinPark
+Linkin Park_8.txt+ROCK+LinkinPark
+Linkin Park_9.txt+ROCK+LinkinPark
+Madonna_1.txt+POP+Madonna
+Madonna_10.txt+POP+Madonna
+Madonna_11.txt+POP+Madonna
+Madonna_12.txt+POP+Madonna
+Madonna_13.txt+POP+Madonna
+Madonna_14.txt+POP+Madonna
+Madonna_15.txt+POP+Madonna
+Madonna_16.txt+POP+Madonna
+Madonna_17.txt+POP+Madonna
+Madonna_18.txt+POP+Madonna
+Madonna_19.txt+POP+Madonna
+Madonna_2.txt+POP+Madonna
+Madonna_20.txt+POP+Madonna
+Madonna_21.txt+POP+Madonna
+Madonna_22.txt+POP+Madonna
+Madonna_23.txt+POP+Madonna
+Madonna_24.txt+POP+Madonna
+Madonna_25.txt+POP+Madonna
+Madonna_26.txt+POP+Madonna
+Madonna_27.txt+POP+Madonna
+Madonna_28.txt+POP+Madonna
+Madonna_29.txt+POP+Madonna
+Madonna_3.txt+POP+Madonna
+Madonna_30.txt+POP+Madonna
+Madonna_31.txt+POP+Madonna
+Madonna_32.txt+POP+Madonna
+Madonna_33.txt+POP+Madonna
+Madonna_34.txt+POP+Madonna
+Madonna_35.txt+POP+Madonna
+Madonna_36.txt+POP+Madonna
+Madonna_37.txt+POP+Madonna
+Madonna_38.txt+POP+Madonna
+Madonna_39.txt+POP+Madonna
+Madonna_4.txt+POP+Madonna
+Madonna_40.txt+POP+Madonna
+Madonna_41.txt+POP+Madonna
+Madonna_42.txt+POP+Madonna
+Madonna_5.txt+POP+Madonna
+Madonna_6.txt+POP+Madonna
+Madonna_7.txt+POP+Madonna
+Madonna_8.txt+POP+Madonna
+Madonna_9.txt+POP+Madonna
+Mariah Carey_1.txt+POP+MariahCarey
+Mariah Carey_10.txt+POP+MariahCarey
+Mariah Carey_11.txt+POP+MariahCarey
+Mariah Carey_12.txt+POP+MariahCarey
+Mariah Carey_13.txt+POP+MariahCarey
+Mariah Carey_14.txt+POP+MariahCarey
+Mariah Carey_15.txt+POP+MariahCarey
+Mariah Carey_16.txt+POP+MariahCarey
+Mariah Carey_17.txt+POP+MariahCarey
+Mariah Carey_18.txt+POP+MariahCarey
+Mariah Carey_19.txt+POP+MariahCarey
+Mariah Carey_2.txt+POP+MariahCarey
+Mariah Carey_20.txt+POP+MariahCarey
+Mariah Carey_21.txt+POP+MariahCarey
+Mariah Carey_22.txt+POP+MariahCarey
+Mariah Carey_23.txt+POP+MariahCarey
+Mariah Carey_24.txt+POP+MariahCarey
+Mariah Carey_25.txt+POP+MariahCarey
+Mariah Carey_26.txt+POP+MariahCarey
+Mariah Carey_27.txt+POP+MariahCarey
+Mariah Carey_28.txt+POP+MariahCarey
+Mariah Carey_29.txt+POP+MariahCarey
+Mariah Carey_3.txt+POP+MariahCarey
+Mariah Carey_30.txt+POP+MariahCarey
+Mariah Carey_31.txt+POP+MariahCarey
+Mariah Carey_32.txt+POP+MariahCarey
+Mariah Carey_33.txt+POP+MariahCarey
+Mariah Carey_34.txt+POP+MariahCarey
+Mariah Carey_35.txt+POP+MariahCarey
+Mariah Carey_4.txt+POP+MariahCarey
+Mariah Carey_5.txt+POP+MariahCarey
+Mariah Carey_6.txt+POP+MariahCarey
+Mariah Carey_7.txt+POP+MariahCarey
+Mariah Carey_8.txt+POP+MariahCarey
+Mariah Carey_9.txt+POP+MariahCarey
+Maroon 5_1.txt+POP+Maroon5
+Maroon 5_10.txt+POP+Maroon5
+Maroon 5_11.txt+POP+Maroon5
+Maroon 5_12.txt+POP+Maroon5
+Maroon 5_13.txt+POP+Maroon5
+Maroon 5_14.txt+POP+Maroon5
+Maroon 5_15.txt+POP+Maroon5
+Maroon 5_16.txt+POP+Maroon5
+Maroon 5_17.txt+POP+Maroon5
+Maroon 5_18.txt+POP+Maroon5
+Maroon 5_19.txt+POP+Maroon5
+Maroon 5_2.txt+POP+Maroon5
+Maroon 5_20.txt+POP+Maroon5
+Maroon 5_21.txt+POP+Maroon5
+Maroon 5_22.txt+POP+Maroon5
+Maroon 5_23.txt+POP+Maroon5
+Maroon 5_24.txt+POP+Maroon5
+Maroon 5_25.txt+POP+Maroon5
+Maroon 5_26.txt+POP+Maroon5
+Maroon 5_27.txt+POP+Maroon5
+Maroon 5_3.txt+POP+Maroon5
+Maroon 5_4.txt+POP+Maroon5
+Maroon 5_5.txt+POP+Maroon5
+Maroon 5_6.txt+POP+Maroon5
+Maroon 5_7.txt+POP+Maroon5
+Maroon 5_8.txt+POP+Maroon5
+Maroon 5_9.txt+POP+Maroon5
+Metallica_1.txt+ROCK+Metallica
+Metallica_10.txt+ROCK+Metallica
+Metallica_11.txt+ROCK+Metallica
+Metallica_12.txt+ROCK+Metallica
+Metallica_13.txt+ROCK+Metallica
+Metallica_14.txt+ROCK+Metallica
+Metallica_15.txt+ROCK+Metallica
+Metallica_16.txt+ROCK+Metallica
+Metallica_17.txt+ROCK+Metallica
+Metallica_18.txt+ROCK+Metallica
+Metallica_19.txt+ROCK+Metallica
+Metallica_2.txt+ROCK+Metallica
+Metallica_20.txt+ROCK+Metallica
+Metallica_21.txt+ROCK+Metallica
+Metallica_22.txt+ROCK+Metallica
+Metallica_23.txt+ROCK+Metallica
+Metallica_24.txt+ROCK+Metallica
+Metallica_25.txt+ROCK+Metallica
+Metallica_26.txt+ROCK+Metallica
+Metallica_27.txt+ROCK+Metallica
+Metallica_28.txt+ROCK+Metallica
+Metallica_29.txt+ROCK+Metallica
+Metallica_3.txt+ROCK+Metallica
+Metallica_30.txt+ROCK+Metallica
+Metallica_31.txt+ROCK+Metallica
+Metallica_32.txt+ROCK+Metallica
+Metallica_33.txt+ROCK+Metallica
+Metallica_34.txt+ROCK+Metallica
+Metallica_35.txt+ROCK+Metallica
+Metallica_36.txt+ROCK+Metallica
+Metallica_37.txt+ROCK+Metallica
+Metallica_38.txt+ROCK+Metallica
+Metallica_39.txt+ROCK+Metallica
+Metallica_4.txt+ROCK+Metallica
+Metallica_40.txt+ROCK+Metallica
+Metallica_41.txt+ROCK+Metallica
+Metallica_42.txt+ROCK+Metallica
+Metallica_43.txt+ROCK+Metallica
+Metallica_44.txt+ROCK+Metallica
+Metallica_45.txt+ROCK+Metallica
+Metallica_46.txt+ROCK+Metallica
+Metallica_47.txt+ROCK+Metallica
+Metallica_5.txt+ROCK+Metallica
+Metallica_6.txt+ROCK+Metallica
+Metallica_7.txt+ROCK+Metallica
+Metallica_8.txt+ROCK+Metallica
+Metallica_9.txt+ROCK+Metallica
+Michael Jackson_1.txt+POP+MichaelJackson
+Michael Jackson_10.txt+POP+MichaelJackson
+Michael Jackson_11.txt+POP+MichaelJackson
+Michael Jackson_12.txt+POP+MichaelJackson
+Michael Jackson_13.txt+POP+MichaelJackson
+Michael Jackson_14.txt+POP+MichaelJackson
+Michael Jackson_15.txt+POP+MichaelJackson
+Michael Jackson_16.txt+POP+MichaelJackson
+Michael Jackson_17.txt+POP+MichaelJackson
+Michael Jackson_18.txt+POP+MichaelJackson
+Michael Jackson_19.txt+POP+MichaelJackson
+Michael Jackson_2.txt+POP+MichaelJackson
+Michael Jackson_20.txt+POP+MichaelJackson
+Michael Jackson_21.txt+POP+MichaelJackson
+Michael Jackson_22.txt+POP+MichaelJackson
+Michael Jackson_23.txt+POP+MichaelJackson
+Michael Jackson_24.txt+POP+MichaelJackson
+Michael Jackson_25.txt+POP+MichaelJackson
+Michael Jackson_26.txt+POP+MichaelJackson
+Michael Jackson_27.txt+POP+MichaelJackson
+Michael Jackson_28.txt+POP+MichaelJackson
+Michael Jackson_29.txt+POP+MichaelJackson
+Michael Jackson_3.txt+POP+MichaelJackson
+Michael Jackson_30.txt+POP+MichaelJackson
+Michael Jackson_31.txt+POP+MichaelJackson
+Michael Jackson_32.txt+POP+MichaelJackson
+Michael Jackson_33.txt+POP+MichaelJackson
+Michael Jackson_34.txt+POP+MichaelJackson
+Michael Jackson_35.txt+POP+MichaelJackson
+Michael Jackson_4.txt+POP+MichaelJackson
+Michael Jackson_5.txt+POP+MichaelJackson
+Michael Jackson_6.txt+POP+MichaelJackson
+Michael Jackson_7.txt+POP+MichaelJackson
+Michael Jackson_8.txt+POP+MichaelJackson
+Michael Jackson_9.txt+POP+MichaelJackson
+Miley Cyrus_1.txt+POP+MileyCyrus
+Miley Cyrus_10.txt+POP+MileyCyrus
+Miley Cyrus_11.txt+POP+MileyCyrus
+Miley Cyrus_12.txt+POP+MileyCyrus
+Miley Cyrus_13.txt+POP+MileyCyrus
+Miley Cyrus_14.txt+POP+MileyCyrus
+Miley Cyrus_2.txt+POP+MileyCyrus
+Miley Cyrus_3.txt+POP+MileyCyrus
+Miley Cyrus_4.txt+POP+MileyCyrus
+Miley Cyrus_5.txt+POP+MileyCyrus
+Miley Cyrus_6.txt+POP+MileyCyrus
+Miley Cyrus_7.txt+POP+MileyCyrus
+Miley Cyrus_8.txt+POP+MileyCyrus
+Miley Cyrus_9.txt+POP+MileyCyrus
+Nirvana_1.txt+ROCK+Nirvana
+Nirvana_10.txt+ROCK+Nirvana
+Nirvana_11.txt+ROCK+Nirvana
+Nirvana_12.txt+ROCK+Nirvana
+Nirvana_13.txt+ROCK+Nirvana
+Nirvana_14.txt+ROCK+Nirvana
+Nirvana_15.txt+ROCK+Nirvana
+Nirvana_16.txt+ROCK+Nirvana
+Nirvana_17.txt+ROCK+Nirvana
+Nirvana_18.txt+ROCK+Nirvana
+Nirvana_19.txt+ROCK+Nirvana
+Nirvana_2.txt+ROCK+Nirvana
+Nirvana_20.txt+ROCK+Nirvana
+Nirvana_21.txt+ROCK+Nirvana
+Nirvana_22.txt+ROCK+Nirvana
+Nirvana_23.txt+ROCK+Nirvana
+Nirvana_24.txt+ROCK+Nirvana
+Nirvana_25.txt+ROCK+Nirvana
+Nirvana_26.txt+ROCK+Nirvana
+Nirvana_27.txt+ROCK+Nirvana
+Nirvana_28.txt+ROCK+Nirvana
+Nirvana_29.txt+ROCK+Nirvana
+Nirvana_3.txt+ROCK+Nirvana
+Nirvana_30.txt+ROCK+Nirvana
+Nirvana_31.txt+ROCK+Nirvana
+Nirvana_32.txt+ROCK+Nirvana
+Nirvana_33.txt+ROCK+Nirvana
+Nirvana_34.txt+ROCK+Nirvana
+Nirvana_35.txt+ROCK+Nirvana
+Nirvana_36.txt+ROCK+Nirvana
+Nirvana_37.txt+ROCK+Nirvana
+Nirvana_38.txt+ROCK+Nirvana
+Nirvana_39.txt+ROCK+Nirvana
+Nirvana_4.txt+ROCK+Nirvana
+Nirvana_40.txt+ROCK+Nirvana
+Nirvana_41.txt+ROCK+Nirvana
+Nirvana_42.txt+ROCK+Nirvana
+Nirvana_43.txt+ROCK+Nirvana
+Nirvana_44.txt+ROCK+Nirvana
+Nirvana_45.txt+ROCK+Nirvana
+Nirvana_46.txt+ROCK+Nirvana
+Nirvana_47.txt+ROCK+Nirvana
+Nirvana_48.txt+ROCK+Nirvana
+Nirvana_5.txt+ROCK+Nirvana
+Nirvana_6.txt+ROCK+Nirvana
+Nirvana_7.txt+ROCK+Nirvana
+Nirvana_8.txt+ROCK+Nirvana
+Nirvana_9.txt+ROCK+Nirvana
+NOFX_1.txt+ROCK+NOFX
+NOFX_10.txt+ROCK+NOFX
+NOFX_11.txt+ROCK+NOFX
+NOFX_12.txt+ROCK+NOFX
+NOFX_13.txt+ROCK+NOFX
+NOFX_14.txt+ROCK+NOFX
+NOFX_15.txt+ROCK+NOFX
+NOFX_16.txt+ROCK+NOFX
+NOFX_17.txt+ROCK+NOFX
+NOFX_18.txt+ROCK+NOFX
+NOFX_19.txt+ROCK+NOFX
+NOFX_2.txt+ROCK+NOFX
+NOFX_20.txt+ROCK+NOFX
+NOFX_21.txt+ROCK+NOFX
+NOFX_22.txt+ROCK+NOFX
+NOFX_23.txt+ROCK+NOFX
+NOFX_24.txt+ROCK+NOFX
+NOFX_25.txt+ROCK+NOFX
+NOFX_26.txt+ROCK+NOFX
+NOFX_27.txt+ROCK+NOFX
+NOFX_28.txt+ROCK+NOFX
+NOFX_29.txt+ROCK+NOFX
+NOFX_3.txt+ROCK+NOFX
+NOFX_30.txt+ROCK+NOFX
+NOFX_31.txt+ROCK+NOFX
+NOFX_32.txt+ROCK+NOFX
+NOFX_33.txt+ROCK+NOFX
+NOFX_34.txt+ROCK+NOFX
+NOFX_35.txt+ROCK+NOFX
+NOFX_36.txt+ROCK+NOFX
+NOFX_37.txt+ROCK+NOFX
+NOFX_38.txt+ROCK+NOFX
+NOFX_39.txt+ROCK+NOFX
+NOFX_4.txt+ROCK+NOFX
+NOFX_40.txt+ROCK+NOFX
+NOFX_5.txt+ROCK+NOFX
+NOFX_6.txt+ROCK+NOFX
+NOFX_7.txt+ROCK+NOFX
+NOFX_8.txt+ROCK+NOFX
+NOFX_9.txt+ROCK+NOFX
+Paul Simon_1.txt+POP+PaulSimon
+Paul Simon_2.txt+POP+PaulSimon
+Paul Simon_3.txt+POP+PaulSimon
+Paul Simon_4.txt+POP+PaulSimon
+Paul Simon_5.txt+POP+PaulSimon
+Paul Simon_6.txt+POP+PaulSimon
+Paul Simon_7.txt+POP+PaulSimon
+Paul Simon_8.txt+POP+PaulSimon
+Pink Floyd_1.txt+ROCK+PinkFloyd
+Pink Floyd_10.txt+ROCK+PinkFloyd
+Pink Floyd_11.txt+ROCK+PinkFloyd
+Pink Floyd_12.txt+ROCK+PinkFloyd
+Pink Floyd_13.txt+ROCK+PinkFloyd
+Pink Floyd_14.txt+ROCK+PinkFloyd
+Pink Floyd_15.txt+ROCK+PinkFloyd
+Pink Floyd_16.txt+ROCK+PinkFloyd
+Pink Floyd_17.txt+ROCK+PinkFloyd
+Pink Floyd_18.txt+ROCK+PinkFloyd
+Pink Floyd_19.txt+ROCK+PinkFloyd
+Pink Floyd_2.txt+ROCK+PinkFloyd
+Pink Floyd_20.txt+ROCK+PinkFloyd
+Pink Floyd_21.txt+ROCK+PinkFloyd
+Pink Floyd_22.txt+ROCK+PinkFloyd
+Pink Floyd_23.txt+ROCK+PinkFloyd
+Pink Floyd_24.txt+ROCK+PinkFloyd
+Pink Floyd_25.txt+ROCK+PinkFloyd
+Pink Floyd_26.txt+ROCK+PinkFloyd
+Pink Floyd_27.txt+ROCK+PinkFloyd
+Pink Floyd_28.txt+ROCK+PinkFloyd
+Pink Floyd_29.txt+ROCK+PinkFloyd
+Pink Floyd_3.txt+ROCK+PinkFloyd
+Pink Floyd_30.txt+ROCK+PinkFloyd
+Pink Floyd_31.txt+ROCK+PinkFloyd
+Pink Floyd_32.txt+ROCK+PinkFloyd
+Pink Floyd_33.txt+ROCK+PinkFloyd
+Pink Floyd_34.txt+ROCK+PinkFloyd
+Pink Floyd_35.txt+ROCK+PinkFloyd
+Pink Floyd_36.txt+ROCK+PinkFloyd
+Pink Floyd_37.txt+ROCK+PinkFloyd
+Pink Floyd_38.txt+ROCK+PinkFloyd
+Pink Floyd_39.txt+ROCK+PinkFloyd
+Pink Floyd_4.txt+ROCK+PinkFloyd
+Pink Floyd_5.txt+ROCK+PinkFloyd
+Pink Floyd_6.txt+ROCK+PinkFloyd
+Pink Floyd_7.txt+ROCK+PinkFloyd
+Pink Floyd_8.txt+ROCK+PinkFloyd
+Pink Floyd_9.txt+ROCK+PinkFloyd
+Prince & The New Power Generation_1.txt+POP+Prince&TheNewPowerGeneration
+Prince & The New Power Generation_2.txt+POP+Prince&TheNewPowerGeneration
+Prince & The New Power Generation_3.txt+POP+Prince&TheNewPowerGeneration
+Prince & The New Power Generation_4.txt+POP+Prince&TheNewPowerGeneration
+Prince & The New Power Generation_5.txt+POP+Prince&TheNewPowerGeneration
+Prince & The New Power Generation_6.txt+POP+Prince&TheNewPowerGeneration
+Prince & The New Power Generation_7.txt+POP+Prince&TheNewPowerGeneration
+Prince & The New Power Generation_8.txt+POP+Prince&TheNewPowerGeneration
+Prince & The Revolution_1.txt+POP+Prince&TheRevolution
+Prince & The Revolution_10.txt+POP+Prince&TheRevolution
+Prince & The Revolution_11.txt+POP+Prince&TheRevolution
+Prince & The Revolution_12.txt+POP+Prince&TheRevolution
+Prince & The Revolution_13.txt+POP+Prince&TheRevolution
+Prince & The Revolution_14.txt+POP+Prince&TheRevolution
+Prince & The Revolution_15.txt+POP+Prince&TheRevolution
+Prince & The Revolution_2.txt+POP+Prince&TheRevolution
+Prince & The Revolution_3.txt+POP+Prince&TheRevolution
+Prince & The Revolution_4.txt+POP+Prince&TheRevolution
+Prince & The Revolution_5.txt+POP+Prince&TheRevolution
+Prince & The Revolution_6.txt+POP+Prince&TheRevolution
+Prince & The Revolution_7.txt+POP+Prince&TheRevolution
+Prince & The Revolution_8.txt+POP+Prince&TheRevolution
+Prince & The Revolution_9.txt+POP+Prince&TheRevolution
+Prince_1.txt+POP+Prince
+Prince_10.txt+POP+Prince
+Prince_11.txt+POP+Prince
+Prince_12.txt+POP+Prince
+Prince_13.txt+POP+Prince
+Prince_14.txt+POP+Prince
+Prince_15.txt+POP+Prince
+Prince_16.txt+POP+Prince
+Prince_17.txt+POP+Prince
+Prince_18.txt+POP+Prince
+Prince_19.txt+POP+Prince
+Prince_2.txt+POP+Prince
+Prince_20.txt+POP+Prince
+Prince_21.txt+POP+Prince
+Prince_22.txt+POP+Prince
+Prince_23.txt+POP+Prince
+Prince_24.txt+POP+Prince
+Prince_3.txt+POP+Prince
+Prince_4.txt+POP+Prince
+Prince_5.txt+POP+Prince
+Prince_6.txt+POP+Prince
+Prince_7.txt+POP+Prince
+Prince_8.txt+POP+Prince
+Prince_9.txt+POP+Prince
+Queen_1.txt+ROCK+Queen
+Queen_10.txt+ROCK+Queen
+Queen_11.txt+ROCK+Queen
+Queen_12.txt+ROCK+Queen
+Queen_13.txt+ROCK+Queen
+Queen_14.txt+ROCK+Queen
+Queen_15.txt+ROCK+Queen
+Queen_16.txt+ROCK+Queen
+Queen_17.txt+ROCK+Queen
+Queen_18.txt+ROCK+Queen
+Queen_19.txt+ROCK+Queen
+Queen_2.txt+ROCK+Queen
+Queen_20.txt+ROCK+Queen
+Queen_21.txt+ROCK+Queen
+Queen_22.txt+ROCK+Queen
+Queen_23.txt+ROCK+Queen
+Queen_24.txt+ROCK+Queen
+Queen_25.txt+ROCK+Queen
+Queen_26.txt+ROCK+Queen
+Queen_27.txt+ROCK+Queen
+Queen_28.txt+ROCK+Queen
+Queen_29.txt+ROCK+Queen
+Queen_3.txt+ROCK+Queen
+Queen_4.txt+ROCK+Queen
+Queen_5.txt+ROCK+Queen
+Queen_6.txt+ROCK+Queen
+Queen_7.txt+ROCK+Queen
+Queen_8.txt+ROCK+Queen
+Queen_9.txt+ROCK+Queen
+Queens of the Stone Age_1.txt+ROCK+QueensoftheStoneAge
+Radiohead_1.txt+ROCK+Radiohead
+Radiohead_10.txt+ROCK+Radiohead
+Radiohead_11.txt+ROCK+Radiohead
+Radiohead_12.txt+ROCK+Radiohead
+Radiohead_13.txt+ROCK+Radiohead
+Radiohead_14.txt+ROCK+Radiohead
+Radiohead_15.txt+ROCK+Radiohead
+Radiohead_16.txt+ROCK+Radiohead
+Radiohead_17.txt+ROCK+Radiohead
+Radiohead_18.txt+ROCK+Radiohead
+Radiohead_19.txt+ROCK+Radiohead
+Radiohead_2.txt+ROCK+Radiohead
+Radiohead_20.txt+ROCK+Radiohead
+Radiohead_21.txt+ROCK+Radiohead
+Radiohead_22.txt+ROCK+Radiohead
+Radiohead_23.txt+ROCK+Radiohead
+Radiohead_24.txt+ROCK+Radiohead
+Radiohead_25.txt+ROCK+Radiohead
+Radiohead_26.txt+ROCK+Radiohead
+Radiohead_27.txt+ROCK+Radiohead
+Radiohead_28.txt+ROCK+Radiohead
+Radiohead_29.txt+ROCK+Radiohead
+Radiohead_3.txt+ROCK+Radiohead
+Radiohead_30.txt+ROCK+Radiohead
+Radiohead_31.txt+ROCK+Radiohead
+Radiohead_32.txt+ROCK+Radiohead
+Radiohead_33.txt+ROCK+Radiohead
+Radiohead_34.txt+ROCK+Radiohead
+Radiohead_35.txt+ROCK+Radiohead
+Radiohead_36.txt+ROCK+Radiohead
+Radiohead_37.txt+ROCK+Radiohead
+Radiohead_38.txt+ROCK+Radiohead
+Radiohead_39.txt+ROCK+Radiohead
+Radiohead_4.txt+ROCK+Radiohead
+Radiohead_40.txt+ROCK+Radiohead
+Radiohead_41.txt+ROCK+Radiohead
+Radiohead_42.txt+ROCK+Radiohead
+Radiohead_43.txt+ROCK+Radiohead
+Radiohead_44.txt+ROCK+Radiohead
+Radiohead_45.txt+ROCK+Radiohead
+Radiohead_5.txt+ROCK+Radiohead
+Radiohead_6.txt+ROCK+Radiohead
+Radiohead_7.txt+ROCK+Radiohead
+Radiohead_8.txt+ROCK+Radiohead
+Radiohead_9.txt+ROCK+Radiohead
+Ramones_1.txt+ROCK+Ramones
+Ramones_10.txt+ROCK+Ramones
+Ramones_11.txt+ROCK+Ramones
+Ramones_12.txt+ROCK+Ramones
+Ramones_13.txt+ROCK+Ramones
+Ramones_14.txt+ROCK+Ramones
+Ramones_15.txt+ROCK+Ramones
+Ramones_16.txt+ROCK+Ramones
+Ramones_17.txt+ROCK+Ramones
+Ramones_18.txt+ROCK+Ramones
+Ramones_19.txt+ROCK+Ramones
+Ramones_2.txt+ROCK+Ramones
+Ramones_20.txt+ROCK+Ramones
+Ramones_21.txt+ROCK+Ramones
+Ramones_22.txt+ROCK+Ramones
+Ramones_23.txt+ROCK+Ramones
+Ramones_24.txt+ROCK+Ramones
+Ramones_25.txt+ROCK+Ramones
+Ramones_26.txt+ROCK+Ramones
+Ramones_27.txt+ROCK+Ramones
+Ramones_28.txt+ROCK+Ramones
+Ramones_29.txt+ROCK+Ramones
+Ramones_3.txt+ROCK+Ramones
+Ramones_30.txt+ROCK+Ramones
+Ramones_31.txt+ROCK+Ramones
+Ramones_32.txt+ROCK+Ramones
+Ramones_33.txt+ROCK+Ramones
+Ramones_34.txt+ROCK+Ramones
+Ramones_35.txt+ROCK+Ramones
+Ramones_36.txt+ROCK+Ramones
+Ramones_4.txt+ROCK+Ramones
+Ramones_5.txt+ROCK+Ramones
+Ramones_6.txt+ROCK+Ramones
+Ramones_7.txt+ROCK+Ramones
+Ramones_8.txt+ROCK+Ramones
+Ramones_9.txt+ROCK+Ramones
+Red Hot Chili Peppers_1.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_10.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_11.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_12.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_13.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_14.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_15.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_16.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_17.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_18.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_19.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_2.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_20.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_21.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_22.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_23.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_24.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_25.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_26.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_27.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_28.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_29.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_3.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_30.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_31.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_32.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_33.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_34.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_35.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_36.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_37.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_38.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_39.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_4.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_40.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_41.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_42.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_5.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_6.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_7.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_8.txt+ROCK+RedHotChiliPeppers
+Red Hot Chili Peppers_9.txt+ROCK+RedHotChiliPeppers
+Robbie Williams_1.txt+POP+RobbieWilliams
+Robbie Williams_10.txt+POP+RobbieWilliams
+Robbie Williams_11.txt+POP+RobbieWilliams
+Robbie Williams_12.txt+POP+RobbieWilliams
+Robbie Williams_13.txt+POP+RobbieWilliams
+Robbie Williams_14.txt+POP+RobbieWilliams
+Robbie Williams_15.txt+POP+RobbieWilliams
+Robbie Williams_16.txt+POP+RobbieWilliams
+Robbie Williams_17.txt+POP+RobbieWilliams
+Robbie Williams_18.txt+POP+RobbieWilliams
+Robbie Williams_19.txt+POP+RobbieWilliams
+Robbie Williams_2.txt+POP+RobbieWilliams
+Robbie Williams_20.txt+POP+RobbieWilliams
+Robbie Williams_21.txt+POP+RobbieWilliams
+Robbie Williams_22.txt+POP+RobbieWilliams
+Robbie Williams_23.txt+POP+RobbieWilliams
+Robbie Williams_24.txt+POP+RobbieWilliams
+Robbie Williams_25.txt+POP+RobbieWilliams
+Robbie Williams_26.txt+POP+RobbieWilliams
+Robbie Williams_27.txt+POP+RobbieWilliams
+Robbie Williams_28.txt+POP+RobbieWilliams
+Robbie Williams_29.txt+POP+RobbieWilliams
+Robbie Williams_3.txt+POP+RobbieWilliams
+Robbie Williams_30.txt+POP+RobbieWilliams
+Robbie Williams_31.txt+POP+RobbieWilliams
+Robbie Williams_32.txt+POP+RobbieWilliams
+Robbie Williams_33.txt+POP+RobbieWilliams
+Robbie Williams_34.txt+POP+RobbieWilliams
+Robbie Williams_35.txt+POP+RobbieWilliams
+Robbie Williams_36.txt+POP+RobbieWilliams
+Robbie Williams_37.txt+POP+RobbieWilliams
+Robbie Williams_38.txt+POP+RobbieWilliams
+Robbie Williams_39.txt+POP+RobbieWilliams
+Robbie Williams_4.txt+POP+RobbieWilliams
+Robbie Williams_40.txt+POP+RobbieWilliams
+Robbie Williams_41.txt+POP+RobbieWilliams
+Robbie Williams_5.txt+POP+RobbieWilliams
+Robbie Williams_6.txt+POP+RobbieWilliams
+Robbie Williams_7.txt+POP+RobbieWilliams
+Robbie Williams_8.txt+POP+RobbieWilliams
+Robbie Williams_9.txt+POP+RobbieWilliams
+Simon & Garfunkel_1.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_10.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_11.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_12.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_13.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_14.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_15.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_16.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_17.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_18.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_19.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_2.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_20.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_21.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_22.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_23.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_24.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_25.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_26.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_27.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_28.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_29.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_3.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_30.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_31.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_32.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_33.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_34.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_35.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_36.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_4.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_5.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_6.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_7.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_8.txt+POP+Simon&Garfunkel
+Simon & Garfunkel_9.txt+POP+Simon&Garfunkel
+Taylor Swift_1.txt+POP+TaylorSwift
+Taylor Swift_10.txt+POP+TaylorSwift
+Taylor Swift_11.txt+POP+TaylorSwift
+Taylor Swift_12.txt+POP+TaylorSwift
+Taylor Swift_2.txt+POP+TaylorSwift
+Taylor Swift_3.txt+POP+TaylorSwift
+Taylor Swift_4.txt+POP+TaylorSwift
+Taylor Swift_5.txt+POP+TaylorSwift
+Taylor Swift_6.txt+POP+TaylorSwift
+Taylor Swift_7.txt+POP+TaylorSwift
+Taylor Swift_8.txt+POP+TaylorSwift
+Taylor Swift_9.txt+POP+TaylorSwift
+The Beach Boys_1.txt+POP+TheBeachBoys
+The Beach Boys_10.txt+POP+TheBeachBoys
+The Beach Boys_11.txt+POP+TheBeachBoys
+The Beach Boys_12.txt+POP+TheBeachBoys
+The Beach Boys_13.txt+POP+TheBeachBoys
+The Beach Boys_14.txt+POP+TheBeachBoys
+The Beach Boys_15.txt+POP+TheBeachBoys
+The Beach Boys_16.txt+POP+TheBeachBoys
+The Beach Boys_17.txt+POP+TheBeachBoys
+The Beach Boys_18.txt+POP+TheBeachBoys
+The Beach Boys_19.txt+POP+TheBeachBoys
+The Beach Boys_2.txt+POP+TheBeachBoys
+The Beach Boys_20.txt+POP+TheBeachBoys
+The Beach Boys_21.txt+POP+TheBeachBoys
+The Beach Boys_22.txt+POP+TheBeachBoys
+The Beach Boys_23.txt+POP+TheBeachBoys
+The Beach Boys_24.txt+POP+TheBeachBoys
+The Beach Boys_25.txt+POP+TheBeachBoys
+The Beach Boys_26.txt+POP+TheBeachBoys
+The Beach Boys_27.txt+POP+TheBeachBoys
+The Beach Boys_28.txt+POP+TheBeachBoys
+The Beach Boys_29.txt+POP+TheBeachBoys
+The Beach Boys_3.txt+POP+TheBeachBoys
+The Beach Boys_30.txt+POP+TheBeachBoys
+The Beach Boys_31.txt+POP+TheBeachBoys
+The Beach Boys_32.txt+POP+TheBeachBoys
+The Beach Boys_33.txt+POP+TheBeachBoys
+The Beach Boys_34.txt+POP+TheBeachBoys
+The Beach Boys_4.txt+POP+TheBeachBoys
+The Beach Boys_5.txt+POP+TheBeachBoys
+The Beach Boys_6.txt+POP+TheBeachBoys
+The Beach Boys_7.txt+POP+TheBeachBoys
+The Beach Boys_8.txt+POP+TheBeachBoys
+The Beach Boys_9.txt+POP+TheBeachBoys
+The Clash_1.txt+ROCK+TheClash
+The Clash_10.txt+ROCK+TheClash
+The Clash_11.txt+ROCK+TheClash
+The Clash_12.txt+ROCK+TheClash
+The Clash_13.txt+ROCK+TheClash
+The Clash_14.txt+ROCK+TheClash
+The Clash_15.txt+ROCK+TheClash
+The Clash_16.txt+ROCK+TheClash
+The Clash_17.txt+ROCK+TheClash
+The Clash_18.txt+ROCK+TheClash
+The Clash_19.txt+ROCK+TheClash
+The Clash_2.txt+ROCK+TheClash
+The Clash_20.txt+ROCK+TheClash
+The Clash_21.txt+ROCK+TheClash
+The Clash_22.txt+ROCK+TheClash
+The Clash_23.txt+ROCK+TheClash
+The Clash_24.txt+ROCK+TheClash
+The Clash_25.txt+ROCK+TheClash
+The Clash_26.txt+ROCK+TheClash
+The Clash_27.txt+ROCK+TheClash
+The Clash_28.txt+ROCK+TheClash
+The Clash_29.txt+ROCK+TheClash
+The Clash_3.txt+ROCK+TheClash
+The Clash_30.txt+ROCK+TheClash
+The Clash_31.txt+ROCK+TheClash
+The Clash_32.txt+ROCK+TheClash
+The Clash_33.txt+ROCK+TheClash
+The Clash_34.txt+ROCK+TheClash
+The Clash_35.txt+ROCK+TheClash
+The Clash_36.txt+ROCK+TheClash
+The Clash_37.txt+ROCK+TheClash
+The Clash_38.txt+ROCK+TheClash
+The Clash_39.txt+ROCK+TheClash
+The Clash_4.txt+ROCK+TheClash
+The Clash_40.txt+ROCK+TheClash
+The Clash_41.txt+ROCK+TheClash
+The Clash_5.txt+ROCK+TheClash
+The Clash_6.txt+ROCK+TheClash
+The Clash_7.txt+ROCK+TheClash
+The Clash_8.txt+ROCK+TheClash
+The Clash_9.txt+ROCK+TheClash
+The Doors_1.txt+ROCK+TheDoors
+The Doors_10.txt+ROCK+TheDoors
+The Doors_11.txt+ROCK+TheDoors
+The Doors_12.txt+ROCK+TheDoors
+The Doors_13.txt+ROCK+TheDoors
+The Doors_14.txt+ROCK+TheDoors
+The Doors_15.txt+ROCK+TheDoors
+The Doors_16.txt+ROCK+TheDoors
+The Doors_17.txt+ROCK+TheDoors
+The Doors_18.txt+ROCK+TheDoors
+The Doors_19.txt+ROCK+TheDoors
+The Doors_2.txt+ROCK+TheDoors
+The Doors_20.txt+ROCK+TheDoors
+The Doors_21.txt+ROCK+TheDoors
+The Doors_22.txt+ROCK+TheDoors
+The Doors_23.txt+ROCK+TheDoors
+The Doors_24.txt+ROCK+TheDoors
+The Doors_25.txt+ROCK+TheDoors
+The Doors_26.txt+ROCK+TheDoors
+The Doors_3.txt+ROCK+TheDoors
+The Doors_4.txt+ROCK+TheDoors
+The Doors_5.txt+ROCK+TheDoors
+The Doors_6.txt+ROCK+TheDoors
+The Doors_7.txt+ROCK+TheDoors
+The Doors_8.txt+ROCK+TheDoors
+The Doors_9.txt+ROCK+TheDoors
+The Offspring_1.txt+ROCK+TheOffspring
+The Offspring_10.txt+ROCK+TheOffspring
+The Offspring_11.txt+ROCK+TheOffspring
+The Offspring_12.txt+ROCK+TheOffspring
+The Offspring_13.txt+ROCK+TheOffspring
+The Offspring_14.txt+ROCK+TheOffspring
+The Offspring_15.txt+ROCK+TheOffspring
+The Offspring_16.txt+ROCK+TheOffspring
+The Offspring_17.txt+ROCK+TheOffspring
+The Offspring_18.txt+ROCK+TheOffspring
+The Offspring_19.txt+ROCK+TheOffspring
+The Offspring_2.txt+ROCK+TheOffspring
+The Offspring_20.txt+ROCK+TheOffspring
+The Offspring_21.txt+ROCK+TheOffspring
+The Offspring_22.txt+ROCK+TheOffspring
+The Offspring_23.txt+ROCK+TheOffspring
+The Offspring_24.txt+ROCK+TheOffspring
+The Offspring_25.txt+ROCK+TheOffspring
+The Offspring_26.txt+ROCK+TheOffspring
+The Offspring_27.txt+ROCK+TheOffspring
+The Offspring_28.txt+ROCK+TheOffspring
+The Offspring_29.txt+ROCK+TheOffspring
+The Offspring_3.txt+ROCK+TheOffspring
+The Offspring_30.txt+ROCK+TheOffspring
+The Offspring_31.txt+ROCK+TheOffspring
+The Offspring_32.txt+ROCK+TheOffspring
+The Offspring_33.txt+ROCK+TheOffspring
+The Offspring_34.txt+ROCK+TheOffspring
+The Offspring_35.txt+ROCK+TheOffspring
+The Offspring_36.txt+ROCK+TheOffspring
+The Offspring_37.txt+ROCK+TheOffspring
+The Offspring_38.txt+ROCK+TheOffspring
+The Offspring_39.txt+ROCK+TheOffspring
+The Offspring_4.txt+ROCK+TheOffspring
+The Offspring_5.txt+ROCK+TheOffspring
+The Offspring_6.txt+ROCK+TheOffspring
+The Offspring_7.txt+ROCK+TheOffspring
+The Offspring_8.txt+ROCK+TheOffspring
+The Offspring_9.txt+ROCK+TheOffspring
+The Rolling Stones_1.txt+ROCK+TheRollingStones
+The Rolling Stones_10.txt+ROCK+TheRollingStones
+The Rolling Stones_11.txt+ROCK+TheRollingStones
+The Rolling Stones_12.txt+ROCK+TheRollingStones
+The Rolling Stones_13.txt+ROCK+TheRollingStones
+The Rolling Stones_14.txt+ROCK+TheRollingStones
+The Rolling Stones_15.txt+ROCK+TheRollingStones
+The Rolling Stones_16.txt+ROCK+TheRollingStones
+The Rolling Stones_17.txt+ROCK+TheRollingStones
+The Rolling Stones_18.txt+ROCK+TheRollingStones
+The Rolling Stones_19.txt+ROCK+TheRollingStones
+The Rolling Stones_2.txt+ROCK+TheRollingStones
+The Rolling Stones_20.txt+ROCK+TheRollingStones
+The Rolling Stones_21.txt+ROCK+TheRollingStones
+The Rolling Stones_22.txt+ROCK+TheRollingStones
+The Rolling Stones_23.txt+ROCK+TheRollingStones
+The Rolling Stones_24.txt+ROCK+TheRollingStones
+The Rolling Stones_25.txt+ROCK+TheRollingStones
+The Rolling Stones_26.txt+ROCK+TheRollingStones
+The Rolling Stones_27.txt+ROCK+TheRollingStones
+The Rolling Stones_28.txt+ROCK+TheRollingStones
+The Rolling Stones_29.txt+ROCK+TheRollingStones
+The Rolling Stones_3.txt+ROCK+TheRollingStones
+The Rolling Stones_30.txt+ROCK+TheRollingStones
+The Rolling Stones_31.txt+ROCK+TheRollingStones
+The Rolling Stones_32.txt+ROCK+TheRollingStones
+The Rolling Stones_33.txt+ROCK+TheRollingStones
+The Rolling Stones_34.txt+ROCK+TheRollingStones
+The Rolling Stones_35.txt+ROCK+TheRollingStones
+The Rolling Stones_36.txt+ROCK+TheRollingStones
+The Rolling Stones_37.txt+ROCK+TheRollingStones
+The Rolling Stones_38.txt+ROCK+TheRollingStones
+The Rolling Stones_39.txt+ROCK+TheRollingStones
+The Rolling Stones_4.txt+ROCK+TheRollingStones
+The Rolling Stones_5.txt+ROCK+TheRollingStones
+The Rolling Stones_6.txt+ROCK+TheRollingStones
+The Rolling Stones_7.txt+ROCK+TheRollingStones
+The Rolling Stones_8.txt+ROCK+TheRollingStones
+The Rolling Stones_9.txt+ROCK+TheRollingStones
+The Stone Roses_1.txt+ROCK+TheStoneRoses
+The Stone Roses_2.txt+ROCK+TheStoneRoses
+U2_1.txt+ROCK+U2
+U2_10.txt+ROCK+U2
+U2_11.txt+ROCK+U2
+U2_12.txt+ROCK+U2
+U2_13.txt+ROCK+U2
+U2_14.txt+ROCK+U2
+U2_15.txt+ROCK+U2
+U2_16.txt+ROCK+U2
+U2_17.txt+ROCK+U2
+U2_18.txt+ROCK+U2
+U2_19.txt+ROCK+U2
+U2_2.txt+ROCK+U2
+U2_20.txt+ROCK+U2
+U2_21.txt+ROCK+U2
+U2_22.txt+ROCK+U2
+U2_23.txt+ROCK+U2
+U2_24.txt+ROCK+U2
+U2_25.txt+ROCK+U2
+U2_26.txt+ROCK+U2
+U2_27.txt+ROCK+U2
+U2_28.txt+ROCK+U2
+U2_29.txt+ROCK+U2
+U2_3.txt+ROCK+U2
+U2_30.txt+ROCK+U2
+U2_31.txt+ROCK+U2
+U2_32.txt+ROCK+U2
+U2_33.txt+ROCK+U2
+U2_34.txt+ROCK+U2
+U2_35.txt+ROCK+U2
+U2_36.txt+ROCK+U2
+U2_37.txt+ROCK+U2
+U2_38.txt+ROCK+U2
+U2_39.txt+ROCK+U2
+U2_4.txt+ROCK+U2
+U2_5.txt+ROCK+U2
+U2_6.txt+ROCK+U2
+U2_7.txt+ROCK+U2
+U2_8.txt+ROCK+U2
+U2_9.txt+ROCK+U2
+Whitney Houston_1.txt+POP+WhitneyHouston
+Whitney Houston_10.txt+POP+WhitneyHouston
+Whitney Houston_11.txt+POP+WhitneyHouston
+Whitney Houston_12.txt+POP+WhitneyHouston
+Whitney Houston_13.txt+POP+WhitneyHouston
+Whitney Houston_14.txt+POP+WhitneyHouston
+Whitney Houston_15.txt+POP+WhitneyHouston
+Whitney Houston_16.txt+POP+WhitneyHouston
+Whitney Houston_17.txt+POP+WhitneyHouston
+Whitney Houston_18.txt+POP+WhitneyHouston
+Whitney Houston_19.txt+POP+WhitneyHouston
+Whitney Houston_2.txt+POP+WhitneyHouston
+Whitney Houston_20.txt+POP+WhitneyHouston
+Whitney Houston_21.txt+POP+WhitneyHouston
+Whitney Houston_22.txt+POP+WhitneyHouston
+Whitney Houston_23.txt+POP+WhitneyHouston
+Whitney Houston_24.txt+POP+WhitneyHouston
+Whitney Houston_25.txt+POP+WhitneyHouston
+Whitney Houston_26.txt+POP+WhitneyHouston
+Whitney Houston_27.txt+POP+WhitneyHouston
+Whitney Houston_28.txt+POP+WhitneyHouston
+Whitney Houston_29.txt+POP+WhitneyHouston
+Whitney Houston_3.txt+POP+WhitneyHouston
+Whitney Houston_4.txt+POP+WhitneyHouston
+Whitney Houston_5.txt+POP+WhitneyHouston
+Whitney Houston_6.txt+POP+WhitneyHouston
+Whitney Houston_7.txt+POP+WhitneyHouston
+Whitney Houston_8.txt+POP+WhitneyHouston
+Whitney Houston_9.txt+POP+WhitneyHouston
