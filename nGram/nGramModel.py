@@ -105,7 +105,7 @@ class NgramModel :
             for i in range(length):
                 nextWord = self.nextWord(context)
                 sentence.append(nextWord)
-                if (nextWord == '.')|(nextWord == '!')|(nextWord == '?')| (((nextWord == ';')|(nextWord == ',')) & (i > length - 3)):
+                if (nextWord == '.')|(nextWord == '!')|(nextWord == '?')| (i > length - 3):
                     break
                 context = context[1:self._n-1]+(nextWord,)
             return sentence
@@ -119,9 +119,6 @@ class NgramModel :
             :type context: list(str)
         """
         def logProb(self, word, context):
-            if self.prob(word, context) is None :
-                return 0
-            else :
                 return log(self.prob(word, context), 2)
 
 
