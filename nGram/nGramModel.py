@@ -33,7 +33,7 @@ class NgramModel :
             self._cFdist = cfdist
             self._T = self._fDist.B()+1
             if (bins) :
-                cpdist = ConditionalProbDist(self._cFdist, estimator, self._T )
+                cpdist = ConditionalProbDist(self._cFdist, estimator, len(trainingCorpus))
             else :
                  cpdist = ConditionalProbDist(self._cFdist, estimator)
             self._probDist = cpdist
@@ -51,10 +51,12 @@ class NgramModel :
                                              for i in range(n1, size))
                     t = fd.B()+1
                     if bins:
-                        cp = ConditionalProbDist(cf, estimator, t )
+                        cp = ConditionalProbDist(cf, estimator, len(trainingCorpus) )
                     else :
-                        cp = ConditionalProbDist(cf, estimator)
-
+                        if n1 == 0 :
+                            cp = ConditionalProbDist(cf, LaplaceProbDist)
+                        else:
+                            cp = ConditionalProbDist(cf, estimator)
                     self._backoffList[n1] = cp
                     self._backoffContext[n1] = fd
 
@@ -69,12 +71,13 @@ class NgramModel :
             else:
                 initContext = context
                 n1 = self._n
-                while(n1 > 1 &  freq == 0):
+                while((n1 > 1)&(freq == 0)):
                 # the frequency of this potential ngram is 0, we backoff
                     context = context[1:]
                     ngram = context + (word,)
                     freq = self._backoffContext[n1-2].__getitem__(ngram)
                     n1 -= 1
+
 
                 backOff_context = context
                 context = initContext[self._n-n1:]
@@ -88,6 +91,9 @@ class NgramModel :
                 beta = 1.0 - total_observed_pr
                 alpha = beta / (1.0-backOff_total_pr)
                 print(backOff_context)
+                print(word)
+                print(self._backoffList[n1-1].__getitem__(backOff_context))
+                print(n1)
                 return alpha *self._backoffList[n1-1].__getitem__(backOff_context).prob(word)
 
         def nextWord(self, context=()):
@@ -134,7 +140,7 @@ class NgramModel :
             :type context: list(str)
         """
         def logProb(self, word, context):
-                return -log(self.prob(word, context), 2)
+                return -log(self.prob(word, context))
 
 
         """
@@ -166,7 +172,6 @@ test = blakePoems[size:]
 lm = NgramModel( 3 ,train, LaplaceProbDist, True, True)
 #lm = NgramModel( 3 ,blakePoems,WittenBellProbDist, True, True)
 #print(lm.nextWord('I'))
-print(lm.prob('lol', ['lol','lol']))
 #print(lm.wordsInContext())
 #list = lm.wordsInContext(['I', 'can'])
 print(lm.perplexity(test))
