@@ -105,7 +105,7 @@ class NgramModel :
             for i in range(length):
                 nextWord = self.nextWord(context)
                 sentence.append(nextWord)
-                if (nextWord == '.')|(nextWord == '!')|(nextWord == '?')| (i > length - 3):
+                if ((nextWord == '.') & (i > length - 10)) |((nextWord == '!') & (i > length - 10))|((nextWord == '?')& (i > length - 10))| (i > length - 3):
                     break
                 context = context[1:self._n-1]+(nextWord,)
             return sentence
@@ -148,15 +148,15 @@ blakePoems = gutenberg.words('blake-poems.txt')
 #train = blakePoems[:size]
 #test = blakePoems[size:]
 
-lm = NgramModel( 3 ,blakePoems,LaplaceProbDist, True, False)
+lm = NgramModel( 2 ,blakePoems)
 #lm = NgramModel( 3 ,blakePoems,WittenBellProbDist, True, True)
 #print(lm.nextWord('I'))
-print(lm.prob('crazy', ['I','can']))
+#print(lm.prob('crazy', ['I','can']))
 #print(lm.wordsInContext())
 #list = lm.wordsInContext(['I', 'can'])
 #lm.perplexity(test)
 #print(lm.nextWord(['I','can']))
 #print(lm.generateRandomContext())
-#print(lm.generateRandomSentence())
+print(lm.generateRandomSentence())
 #est = lambda fdist, bins: LidstoneProbDist(fdist, 0.2)
 
