@@ -4,8 +4,7 @@ import nltk
 from nltk.corpus import gutenberg
 from nltk.probability import *
 import random
-from math import log
-
+from math import log, exp
 class NgramModel :
 
         """
@@ -34,46 +33,62 @@ class NgramModel :
             self._cFdist = cfdist
             self._T = self._fDist.B()+1
             if (bins) :
-                cpdist = ConditionalProbDist(cfdist, estimator, self._T +1 )
+                cpdist = ConditionalProbDist(self._cFdist, estimator, self._T )
             else :
-                 cpdist = ConditionalProbDist(cfdist, estimator)
+                 cpdist = ConditionalProbDist(self._cFdist, estimator)
             self._probDist = cpdist
+
+            self._contexts = self._cFdist.conditions()
             #print(self._probDist.__getitem__(()).prob('she'))
-            test = self._cFdist.conditions()
             #back of n_gram models
             # if our model is not a unigram
-            if (backOff):
-                if n != 1 :
-                    self._alphas = dict()
-                    print(self._cFdist.conditions())
-                    for context in test:
-                            print("context", context)
-                            print("next", context[1:])
-                            backOff_context = context[1:]
-                            backOff_total_pr = 0.0
-                            total_observed_pr = 0.0
+            if (backOff) & (self._n !=1):
+                self._backoffList = [None for i in range(self._n - 1)] #conditional prob dist for back off Ngrams
+                self._backoffContext = [None for i in range(self._n - 1)] #conditions for back off Ngrams
+                for n1 in range(self._n-1):
+                    fd = FreqDist(tuple(trainingCorpus[i:i+n1+1]) for i in range(len(trainingCorpus)))
+                    cf = ConditionalFreqDist((tuple(trainingCorpus[i-(n1):i]), trainingCorpus[i])
+                                             for i in range(n1, size))
+                    t = fd.B()+1
+                    if bins:
+                        cp = ConditionalProbDist(cf, estimator, t )
+                    else :
+                        cp = ConditionalProbDist(cf, estimator)
 
-                            self._backOff = NgramModel(n-1, trainingCorpus, estimator, bins, backOff)
-                            #these are the words that could follow our context, ie
-                            for word in self.wordsInContext(context):
-                                backOff_total_pr += self._backOff.prob(word, backOff_context)
-                                total_observed_pr += self.prob(word, context)
-                            # beta is the left over probability computed by subtracting from 1 the total probability of observed words
-                            beta = 1.0 - total_observed_pr
-                            alpha = beta / (1.0-backOff_total_pr)
-                            self._alphas[context] = alpha
+                    self._backoffList[n1] = cp
+                    self._backoffContext[n1] = fd
 
 
 
         def prob(self, word, context=()):
             context = tuple(context)
-            print("I'm here" , context)
-            freq = self._fDist.__getitem__(context)
+            ngram = context + (word,)
+            freq = self._fDist.__getitem__(ngram)
             if (freq != 0) | (self._backOff == False) | (self._n==1) :
                 return self._probDist.__getitem__(context).prob(word)
             else:
-                print("hello", context[1:])
-                return self._alphas[context]*self._backOff.prob(word, context[1:])
+                initContext = context
+                n1 = self._n
+                while(n1 > 1 &  freq == 0):
+                # the frequency of this potential ngram is 0, we backoff
+                    context = context[1:]
+                    ngram = context + (word,)
+                    freq = self._backoffContext[n1-2].__getitem__(ngram)
+                    n1 -= 1
+
+                backOff_context = context
+                context = initContext[self._n-n1:]
+                backOff_total_pr = 0.0
+                total_observed_pr = 0.0
+                #these are the words that could follow our context, ie
+                for word in self.wordsInContext(context):
+                    backOff_total_pr += self._backoffList[n1-1].__getitem__(backOff_context).prob(word)
+                    total_observed_pr += self.prob(word, context)
+                # beta is the left over probability computed by subtracting from 1 the total probability of observed words
+                beta = 1.0 - total_observed_pr
+                alpha = beta / (1.0-backOff_total_pr)
+                print(backOff_context)
+                return alpha *self._backoffList[n1-1].__getitem__(backOff_context).prob(word)
 
         def nextWord(self, context=()):
             context = tuple(context)
@@ -119,7 +134,7 @@ class NgramModel :
             :type context: list(str)
         """
         def logProb(self, word, context):
-                return log(self.prob(word, context), 2)
+                return -log(self.prob(word, context), 2)
 
 
         """
@@ -136,7 +151,7 @@ class NgramModel :
                 context = tuple(corpus[i-(self._n-1):i])
                 token = corpus[i]
                 e += self.logProb(token, context)
-            return e / float(len(corpus))
+            return exp(e / float(len(corpus)))
 
 
 
@@ -144,19 +159,19 @@ class NgramModel :
 
 blakePoems = gutenberg.words('blake-poems.txt')
 
-#size = int(len(blakePoems) * 0.8)
-#train = blakePoems[:size]
-#test = blakePoems[size:]
+size = int(len(blakePoems) * 0.8)
+train = blakePoems[:size]
+test = blakePoems[size:]
 
-lm = NgramModel( 2 ,blakePoems)
+lm = NgramModel( 3 ,train, LaplaceProbDist, True, True)
 #lm = NgramModel( 3 ,blakePoems,WittenBellProbDist, True, True)
 #print(lm.nextWord('I'))
-#print(lm.prob('crazy', ['I','can']))
+print(lm.prob('lol', ['lol','lol']))
 #print(lm.wordsInContext())
 #list = lm.wordsInContext(['I', 'can'])
-#lm.perplexity(test)
+print(lm.perplexity(test))
 #print(lm.nextWord(['I','can']))
 #print(lm.generateRandomContext())
-print(lm.generateRandomSentence())
+#print(lm.generateRandomSentence())
 #est = lambda fdist, bins: LidstoneProbDist(fdist, 0.2)
 
