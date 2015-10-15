@@ -21,7 +21,7 @@ def loadCorpus(category = None) :
 
     raw = corpus.raw()
     words = corpus.words()
-    print (category)
+    # print (category)
     if(category == None):
         sents = corpus.sents()
     else:
@@ -34,26 +34,29 @@ def loadCorpus(category = None) :
 
     numberSents = len(shuffledSents)
     trainSize = math.floor(numberSents*0.8)
-    testSize = math.floor(numberSents*0.1)
-    devSize = len(shuffledSents)-trainSize - testSize
+    testSize = len(shuffledSents) - trainSize
+    # testSize = math.floor(numberSents*0.1)
+    # devSize = len(shuffledSents)-trainSize - testSize
 
     trainCorpus = []
     testCorpus = []
-    devCorpus = []
+    # devCorpus = []
     wholeCorpus = []
+    testSents = []
 
     for i in range(numberSents):
         if(i < trainSize):
             for word in shuffledSents[i]:
                 trainCorpus.append(word)
                 wholeCorpus.append(word)
-        elif(i < (trainSize + testSize)):
+        # elif(i < (trainSize + testSize)):
+        #     for word in shuffledSents[i]:
+        #         testCorpus.append(word)
+        #         wholeCorpus.append(word)
+        else:
+            testSents.append(shuffledSents[i])
             for word in shuffledSents[i]:
                 testCorpus.append(word)
-                wholeCorpus.append(word)
-        else:
-            for word in shuffledSents[i]:
-                devCorpus.append(word)
                 wholeCorpus.append(word)
 
 
@@ -64,12 +67,13 @@ def loadCorpus(category = None) :
     #     seed = random.randrange(0,numberSents - i)
     #     testCorpus.append(trainCorpus.pop(seed))
 
-    return wholeCorpus, trainCorpus, testCorpus, devCorpus
+    return wholeCorpus, trainCorpus, testCorpus, testSents
 
 def shuffleSent(sents):
     sentsList = list(sents)
     random.shuffle(sentsList)
     return sentsList
+
 
 # for sentence in sents:
 #   print(sentence)
