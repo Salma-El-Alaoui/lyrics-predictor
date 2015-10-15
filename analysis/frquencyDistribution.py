@@ -1,5 +1,9 @@
 import nltk
 from nltk.corpus import CategorizedPlaintextCorpusReader
+from pylab import *
+
+import plotly.plotly as py
+import plotly.graph_objs as go
 
 corpus_root = "../corpus/lyric_corpus/files/"
 cat_root = "../categories/"
@@ -11,29 +15,86 @@ words = corpus.words()
 popWords = corpus.words(categories="POP")
 rockWords = corpus.words(categories="ROCK")
 
-print("-----All words-----")
+#print("-----All words-----")
 fd = nltk.FreqDist(words)
-print(fd.most_common(50))
+ALL_FrequentWords = fd.most_common(104)
+ALL_FrequentWords_50_100 = []
+for i in range(54,104):
+	ALL_FrequentWords_50_100.append(ALL_FrequentWords[i])
+#print(ALL_FrequentWords)
 
 
-print("-----All POP words-----")
-fd1 = nltk.FreqDist(popWords)
-POP_FrequentWords = fd1.most_common(50)
-print(fd1.most_common(50))
+#print("-----All POP words-----")
+fd_POP = nltk.FreqDist(popWords)
+POP_FrequentWords = fd_POP.most_common(60)
+#print(fd1.most_common(60))
 
 
-print("-----All ROCK words-----")
-fd2 = nltk.FreqDist(rockWords)
-ROCK_FrequentWords = fd2.most_common(50)
-print(fd2.most_common(50))
+#print("-----All ROCK words-----")
+fd_ROCK = nltk.FreqDist(rockWords)
+ROCK_FrequentWords = fd_ROCK.most_common(60)
+#print(fd2.most_common(60))
+#
+# mostFrequentWords50 = []
+# mostFrequentPopWords50 = []
+# mostFrequentRockWords50 = []
 
 # for wordPop in POP_FrequentWords:
 #     for wordRock in ROCK_FrequentWords:
-#         if wordPop != "." and wordPop != ","
+#         if wordPop[0] != "." and wordPop[0] != "," :
+#             print(wordPop)
+#             mostFrequentPopWords50.append(wordPop)
+#         if wordRock[0] != "." and wordRock[0] != ",":
+#
+
+# for wordPop in POP_FrequentWords:
+#     if wordPop[0] != "." and wordPop[0] != "," :
+#         print(wordPop)
+#         mostFrequentPopWords50.append(wordPop)
+MostWordsList = []
+POP_Frequency = []
+ROCK_Frequency = []
+for word in ALL_FrequentWords_50_100:
+    if word[0] != "." and word[0] != "," and word[0] != "?" and word[0] != "!" and word[0] != "...":
+        #print (word[0])
+        MostWordsList.append(word[0])
+        POP_Frequency.append(fd_POP[word[0]])
+        ROCK_Frequency.append(fd_ROCK[word[0]])
 
 
-#fd["string"]
-#fd.plot(50)
+
+# def plot():
+# 	number = []
+# 	for i in range(50):
+# 		number.append(i)
+# 	plot(number,POP_Frequency,'go--',number,ROCK_Frequency,'ro--')
+# 	title('Title')
+# 	xlabel('X')
+# 	ylabel('Y')
+# 	grid(True)
+# 	show()
+#
+# plot()
+#
+trace1 = go.Bar(
+    x= MostWordsList,
+    y= POP_Frequency,
+    name='POP songs'
+)
+trace2 = go.Bar(
+    x=MostWordsList,
+    y=ROCK_Frequency,
+    name='Rock Songs'
+)
+data = [trace1, trace2]
+layout = go.Layout(
+    barmode='songs'
+)
+fig = go.Figure(data=data, layout=layout)
+plot_url = py.plot(fig, filename='Songs statistics')
+
+# fd["string"]
+# fd.plot(50)
 
 
 #
