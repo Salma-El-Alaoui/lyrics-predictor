@@ -38,4 +38,6 @@ vocabulary_rock = set(word_list_rock)
 print("len words ROCK:" + str(len(word_list_rock)))
 print("len vocab ROCK:" + str(len(vocabulary_rock)))
 print("Text richness ROCK: " + str(lexical_diversity(word_list_rock)))
+
 print()
+
