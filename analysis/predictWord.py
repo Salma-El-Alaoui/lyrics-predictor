@@ -1,11 +1,11 @@
-__author__ = 'Salma'
+__author__ = 'qrr'
 
-#from nGram import NgramTagModel,nGramModel
 import corpus.lyric_corpus.corpus_access as corpus
 from nGram.NgramTagModel import NgramTagModel
 
-trainCorpus, testCorpus, devCorpus = corpus.loadCorpus("POP")
-# trainCorpus, testCorpus, devCorpus = corpus.loadCorpus("ROCK")
+corpus, trainCorpus, testCorpus, devCorpus = corpus.loadCorpus()
+# corpus, trainCorpus, testCorpus, devCorpus = corpus.loadCorpus("POP")
+# corpus, trainCorpus, testCorpus, devCorpus = corpus.loadCorpus("ROCK")
 
 # print (testCorpus)
 
@@ -14,9 +14,3 @@ testTag = tm.tagTestCorpus(testCorpus)
 context = tm.getRandomContext(testTag)
 print("Context", context)
 print(tm.nextWord(context))
-
-# print(sents)
-
-
-
-
