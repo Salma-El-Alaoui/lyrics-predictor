@@ -22,11 +22,13 @@ class NgramTagModel:
         input = open(filepath, 'rb')
         tagger = load(input)
         self._tagger = tagger
-        print(tagger)
+        # print(tagger)
         input.close()
 
-        # self._ngram = NgramModel(nWord, trainingCorpus,LaplaceProbDist, True, False)
-        self._ngram = NgramModel(nWord, trainingCorpus,WittenBellProbDist, True, False)
+        # self._ngram = NgramModel(nWord, trainingCorpus)
+        self._ngram = NgramModel(nWord, trainingCorpus, MLEProbDist, False, True)
+        # self._ngram = NgramModel(nWord, trainingCorpus,LaplaceProbDist, True, True)
+        # self._ngram = NgramModel(nWord, trainingCorpus,WittenBellProbDist, True, True)
 
         #tag our own training corpus using trained Ngram Tagger
         taggedTrainingCorpus = self._tagger.tag(trainingCorpus)
@@ -87,11 +89,11 @@ class NgramTagModel:
 
         contextWords = contextWords[len(contextWords) - (self._nWord-1) : len(contextWords)]
         contextTags = contextTags[len(contextTags) - (self._nTag-1) : len(contextTags)]
-        alpha = 0.5
-        print("CONTEXT WORDS", contextWords)
-        print("CONTEXT TAGS", contextTags)
+        alpha = 0.8
+        # print("CONTEXT WORDS", contextWords)
+        # print("CONTEXT TAGS", contextTags)
         nextWords = self._ngram.wordsInContext(contextWords)
-        print("NEXT WORDS", nextWords)
+        # print("NEXT WORDS", nextWords)
         maxValue = -1
         maxWord = ""
         for word in nextWords :
@@ -113,6 +115,7 @@ class NgramTagModel:
 
     def nextWord(self, context):
         size = len(context)
+        print ("Context",context)
         listWords = [context[i][0]for i in range(size)]
         listTags = [context[i][1]for i in range(size)]
         return self.linearCombination(listWords, listTags)
