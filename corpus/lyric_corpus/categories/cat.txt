@@ -368,10 +368,7 @@ Celine Dion_28.txt+POP+CelineDion
 Celine Dion_29.txt+POP+CelineDion
 Celine Dion_3.txt+POP+CelineDion
 Celine Dion_30.txt+POP+CelineDion
-Celine Dion_4.txt+POP+CelineDion
-Celine Dion_5.txt+POP+CelineDion
 Celine Dion_6.txt+POP+CelineDion
-Celine Dion_7.txt+POP+CelineDion
 Celine Dion_8.txt+POP+CelineDion
 Celine Dion_9.txt+POP+CelineDion
 Christina Aguilera_1.txt+POP+ChristinaAguilera
