@@ -233,7 +233,6 @@ Bee Gees_6.txt+POP+BeeGees
 Bee Gees_7.txt+POP+BeeGees
 Bee Gees_8.txt+POP+BeeGees
 Bee Gees_9.txt+POP+BeeGees
-Beyonce_1.txt+POP+Beyonce
 Beyonce_10.txt+POP+Beyonce
 Beyonce_11.txt+POP+Beyonce
 Beyonce_12.txt+POP+Beyonce
@@ -355,13 +354,11 @@ Celine Dion_13.txt+POP+CelineDion
 Celine Dion_14.txt+POP+CelineDion
 Celine Dion_15.txt+POP+CelineDion
 Celine Dion_16.txt+POP+CelineDion
-Celine Dion_17.txt+POP+CelineDion
 Celine Dion_18.txt+POP+CelineDion
 Celine Dion_19.txt+POP+CelineDion
 Celine Dion_2.txt+POP+CelineDion
 Celine Dion_20.txt+POP+CelineDion
 Celine Dion_21.txt+POP+CelineDion
-Celine Dion_22.txt+POP+CelineDion
 Celine Dion_23.txt+POP+CelineDion
 Celine Dion_24.txt+POP+CelineDion
 Celine Dion_25.txt+POP+CelineDion
@@ -380,7 +377,6 @@ Celine Dion_9.txt+POP+CelineDion
 Christina Aguilera_1.txt+POP+ChristinaAguilera
 Christina Aguilera_10.txt+POP+ChristinaAguilera
 Christina Aguilera_11.txt+POP+ChristinaAguilera
-Christina Aguilera_12.txt+POP+ChristinaAguilera
 Christina Aguilera_13.txt+POP+ChristinaAguilera
 Christina Aguilera_14.txt+POP+ChristinaAguilera
 Christina Aguilera_15.txt+POP+ChristinaAguilera
@@ -391,16 +387,13 @@ Christina Aguilera_19.txt+POP+ChristinaAguilera
 Christina Aguilera_2.txt+POP+ChristinaAguilera
 Christina Aguilera_20.txt+POP+ChristinaAguilera
 Christina Aguilera_21.txt+POP+ChristinaAguilera
-Christina Aguilera_22.txt+POP+ChristinaAguilera
 Christina Aguilera_23.txt+POP+ChristinaAguilera
-Christina Aguilera_24.txt+POP+ChristinaAguilera
 Christina Aguilera_25.txt+POP+ChristinaAguilera
 Christina Aguilera_26.txt+POP+ChristinaAguilera
 Christina Aguilera_27.txt+POP+ChristinaAguilera
 Christina Aguilera_28.txt+POP+ChristinaAguilera
 Christina Aguilera_29.txt+POP+ChristinaAguilera
 Christina Aguilera_3.txt+POP+ChristinaAguilera
-Christina Aguilera_30.txt+POP+ChristinaAguilera
 Christina Aguilera_31.txt+POP+ChristinaAguilera
 Christina Aguilera_32.txt+POP+ChristinaAguilera
 Christina Aguilera_33.txt+POP+ChristinaAguilera
@@ -410,7 +403,6 @@ Christina Aguilera_5.txt+POP+ChristinaAguilera
 Christina Aguilera_6.txt+POP+ChristinaAguilera
 Christina Aguilera_7.txt+POP+ChristinaAguilera
 Christina Aguilera_8.txt+POP+ChristinaAguilera
-Christina Aguilera_9.txt+POP+ChristinaAguilera
 Elton John_1.txt+POP+EltonJohn
 Elton John_10.txt+POP+EltonJohn
 Elton John_11.txt+POP+EltonJohn
