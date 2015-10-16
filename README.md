@@ -40,3 +40,10 @@ in *analysis/*
 - run **testSmoothing.py**
 - run **tryAlpha.py**
 
+## Models used for NGrams
+
+in *nGram/* the following models and taggers can be found:
+
+- **nGramModel.py**
+- **NgramTagModel.py**
+- **trainTagger.py**
