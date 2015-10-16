@@ -90,10 +90,6 @@ class NgramModel :
                 # beta is the left over probability computed by subtracting from 1 the total probability of observed words
                 beta = 1.0 - total_observed_pr
                 alpha = beta / (1.0-backOff_total_pr)
-                print(backOff_context)
-                print(word)
-                print(self._backoffList[n1-1].__getitem__(backOff_context))
-                print(n1)
                 return alpha *self._backoffList[n1-1].__getitem__(backOff_context).prob(word)
 
         def nextWord(self, context=()):
@@ -169,7 +165,7 @@ size = int(len(blakePoems) * 0.8)
 train = blakePoems[:size]
 test = blakePoems[size:]
 
-lm = NgramModel( 3 ,train, LaplaceProbDist, True, True)
+lm = NgramModel( 1 ,train, MLEProbDist, False, True)
 #lm = NgramModel( 3 ,blakePoems,WittenBellProbDist, True, True)
 #print(lm.nextWord('I'))
 #print(lm.wordsInContext())

@@ -18,10 +18,14 @@ trainBrown = brown[:size]
 testBrown = brown[size:]
 
 #Perplexity for different N-grams with back-off
-for i in range(4):
-    lm1 = NgramModel( i,trainCorpus, MLEProbDist, False, True)
-    print("Brown perplexity: ", lm1.perplexity(trainBrown))
-    lm2 = NgramModel(i, trainCorpus, MLEProbDist, False, True)
-    print("Song corpus: ", lm2.perplexity(trainCorpus))
-
+for i in range(1,5):
+    if i==1:
+        lm1 = NgramModel( i,trainCorpus, LaplaceProbDist, False, False)
+        lm2 = NgramModel(i, trainCorpus, LaplaceProbDist, False, False)
+    else :
+        lm1 = NgramModel( i,trainCorpus, MLEProbDist, False, True)
+        lm2 = NgramModel(i, trainCorpus, MLEProbDist, False, True)
+    print("N-gram :", i)
+    print("Brown perplexity: ", lm1.perplexity(testBrown))
+    print("Song corpus: ", lm2.perplexity(testCorpus))
 
