@@ -13,7 +13,7 @@ The following dependencies are needed:
 
 ### Start from zero
 
-in *corpus/raw/* and *corpus/lyric_corpus*
+in *corpus/raw/* and *corpus/lyric_corpus/*
 
 1. run **cl_client.py** using a songlist file to crawl lyrics
 2. run **corpus_builder.py** to clean the raw data
