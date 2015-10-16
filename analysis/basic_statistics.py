@@ -1,6 +1,8 @@
 import nltk
 from nltk.corpus import CategorizedPlaintextCorpusReader
 from nltk.corpus import brown
+import bokeh
+
 
 corpus_root = "../corpus/lyric_corpus/files/"
 cat_root = "../categories/"
@@ -16,6 +18,8 @@ def percentage(count, total):
 # Hacky way to specify path for cat.txt. A better way would be to rewrite regex '.*\.txt'...
 corpus = CategorizedPlaintextCorpusReader(corpus_root, '.*\.txt', cat_file=cat_root+'cat.txt', cat_delimiter='+')
 
+
+
 # NLTK brow selection
 word_list_brown = brown.words()
 sents_list_brown = brown.sents()
@@ -27,6 +31,8 @@ brown_richness = lexical_diversity(word_list_brown)
 
 # Lyric corpus
 cats = corpus.categories()
+print(len(cats))
+print(cats)
 
 num_files = len(corpus.fileids())
 word_list = list(corpus.words())
@@ -97,7 +103,84 @@ print("Stones words: " + str(stones_len_words))
 print("Stones richness: " + str(stones_richness))
 
 # chart the stuff
+from bokeh.charts import Bar, output_file, show
+from bokeh.models import Axis
+import pandas as pd
 
-total_fd = nltk.FreqDist(word_list).most_common(50)
-for e in total_fd:
-    print(e)
+raw_data = {
+            'brown':        { "words" : brown_len_words},
+            'all_lyrics' :  { "words" : total_len_words},
+            'pop' :         { "words" : pop_len_words},
+            'rock':         { "words" : rock_len_words}
+            }
+data = []
+for corp in raw_data:
+    for x in raw_data[corp]:
+        entry = { 'val': raw_data[corp][x],'cat': x ,'group' : corp}
+        data.append(entry)
+
+#print(data)
+data_frame = pd.DataFrame(data)
+
+
+p = Bar(data_frame ,values='val', label='cat', xlabel='corpora', ylabel='word count' , group='group',
+        title="Total words for different corpora", legend='top_right' )
+
+yaxis = p.select(dict(type=Axis, layout="left"))[0]
+yaxis.formatter.use_scientific = False
+
+output_file("word statistics.html")
+show(p)
+
+#
+raw_data = {
+            'brown':        { "vocabulary" : brown_len_vocab},
+            'all_lyrics' :  { "vocabulary" : total_len_vocab},
+            'pop' :         { "vocabulary" : pop_len_vocab},
+            'rock':         { "vocabulary" : rock_len_vocab}
+            }
+data = []
+for corp in raw_data:
+    for x in raw_data[corp]:
+        entry = { 'val': raw_data[corp][x],'cat': x ,'group' : corp}
+        data.append(entry)
+
+#print(data)
+data_frame = pd.DataFrame(data)
+
+p = Bar(data_frame ,values='val', label='cat',xlabel='corpora', ylabel='vocabulary size' , group='group',
+        title="Vocabularies for different corpora", legend='top_right' )
+
+yaxis = p.select(dict(type=Axis, layout="left"))[0]
+yaxis.formatter.use_scientific = False
+
+output_file("vocabulary statistics.html")
+show(p)
+
+raw_data = {
+            'brown':        { "richness" : brown_richness},
+            'all_lyrics' :  { "richness" : total_richness},
+            'pop' :         { "richness" : pop_richness},
+            'rock':         { "richness" : rock_richness},
+            'Britney Spears':         { "richness" : spears_richness},
+            'Rolling Stones':         { "richness" : stones_richness}
+            }
+data = []
+for corp in raw_data:
+    for x in raw_data[corp]:
+        entry = { 'val': raw_data[corp][x],'cat': x ,'group' : corp}
+        data.append(entry)
+
+#print(data)
+data_frame = pd.DataFrame(data)
+
+
+p = Bar(data_frame ,values='val', label='cat',xlabel='corpora', ylabel='text richness' , group='group',
+        title="Text richness for corpora and categories", legend='top_right' )
+
+yaxis = p.select(dict(type=Axis, layout="left"))[0]
+yaxis.formatter.use_scientific = False
+
+output_file("Richness statistics.html")
+show(p)
+
