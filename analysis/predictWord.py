@@ -16,16 +16,16 @@ def getWordContext(tagSent, n):
     return context, wordlist[seed][0]
 
 
-corpus, trainCorpus, testCorpus, testSents = corpus.loadCorpus()
-# corpus, trainCorpus, testCorpus, testSents = corpus.loadCorpus("POP")
+# corpus, trainCorpus, testCorpus, testSents = corpus.loadCorpus()
+corpus, trainCorpus, testCorpus, testSents = corpus.loadCorpus("POP")
 # corpus, trainCorpus, testCorpus, testSents = corpus.loadCorpus("ROCK")
 
 # print (testCorpus)
 
 nTag = 2
-nWord = 2
+nWord = 4
 n = max(nTag, nWord)
-tm = NgramTagModel(nTag,nWord,trainCorpus)
+tm = NgramTagModel(nTag,nWord,trainCorpus,0.5)
 # testTag = tm.tagTestCorpus(testCorpus)
 totalTest = 0
 correctTest = 0
@@ -37,6 +37,7 @@ for sent in testSents:
         context, correctWord = getWordContext(tagSent, n)
         print (context, correctWord)
         predictWord = tm.nextWord(context)
+        print (predictWord)
         totalTest += 1
         if(totalTest >= 100):
             break

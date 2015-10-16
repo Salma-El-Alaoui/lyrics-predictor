@@ -159,18 +159,18 @@ class NgramModel :
 
 
 
-blakePoems = gutenberg.words('blake-poems.txt')
+# blakePoems = gutenberg.words('blake-poems.txt')
+#
+# size = int(len(blakePoems) * 0.8)
+# train = blakePoems[:size]
+# test = blakePoems[size:]
 
-size = int(len(blakePoems) * 0.8)
-train = blakePoems[:size]
-test = blakePoems[size:]
-
-lm = NgramModel( 1 ,train, MLEProbDist, False, True)
 #lm = NgramModel( 3 ,blakePoems,WittenBellProbDist, True, True)
 #print(lm.nextWord('I'))
 #print(lm.wordsInContext())
 #list = lm.wordsInContext(['I', 'can'])
 #print(lm.perplexity(test))
+# print(lm.perplexity(test))s
 #print(lm.nextWord(['I','can']))
 #print(lm.generateRandomContext())
 #print(lm.generateRandomSentence())
