@@ -1,4 +1,4 @@
-#README - AI PROJECT GROUP 9
+#Lyrics Predictor
 
 ## Prerequisites
 To run the project use python 3.4
