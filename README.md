@@ -1,5 +1,9 @@
 #Lyrics Predictor
 
+This is the final project for an Artificial Intelligence class, in which we implemented a word predictor for a corpus of Rock and Pop song lyrics. Our algorithm is a weighted combination of an N-gram model with discounting and back-off, and an N-gram for tags. 
+
+Our results and analysis can be found in [the project presentation](https://github.com/Salma-El-Alaoui/lyrics-predictor/blob/master/presentation.pdf) or [the report](https://github.com/Salma-El-Alaoui/lyrics-predictor/blob/master/report.pdf).
+
 ## Prerequisites
 To run the project use python 3.4
 
